@@ -24,4 +24,5 @@ coins=[1,2,5]
 
 print(coinChange(coins,20))
     
+print(coins[-1])
 
