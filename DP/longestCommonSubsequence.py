@@ -18,9 +18,9 @@ def longestCommonSubsequence(text1, text2):
     return dp[M][N]
 
 
-text1 = "ade"
+text1 = "abcde"
 
-text2 = "abcde"
+text2 = "ade"
 
 
 print(longestCommonSubsequence(text1, text2))
@@ -42,4 +42,3 @@ print('test case 2----- \n \n \n ')
 #                     dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
 
 #         return dp[m][n]
-
