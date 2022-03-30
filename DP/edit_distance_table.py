@@ -26,12 +26,13 @@ def min_edit_distance(s1: str, s2: str):
                 # 插入 dp[i-1][j]+1
                 # 替换 dp[i-1][j-1]+1
             # print(dp)
+    print(dp)
     return dp[n][m]
 
 
-s1 = 'horse'
+s1 = 'intention'
 
-s2 = 'ros'
+s2 = 'inception'
 
 print(min_edit_distance(s1, s2))
 

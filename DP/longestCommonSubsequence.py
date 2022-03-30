@@ -5,26 +5,26 @@ def longestCommonSubsequence(text1, text2):
     # N is column J is row we alway iter rate by row
     dp = [[0 for i in range(N+1)] for j in range(M+1)]
 
-    for j in range(1, M+1):
-        for i in range(1, N+1):
-            print('')
-            if text2[j-1] == text1[i-1] and dp[j-1][i]+1 <= j:
+    for i in range(1, M+1):
+        for j in range(1, N+1):
 
-                dp[j][i] = dp[j-1][i-1]+1
+            if text2[i-1] == text1[j-1]:
+
+                dp[i][j] = dp[i-1][j-1]+1
 
             else:
-                dp[j][i] = max(dp[j][i-1], dp[j-1][i])
-            print(dp)
+                dp[i][j] = max(dp[i][j-1], dp[i-1][j])
+        print(dp)
     return dp[M][N]
 
 
-text1 = "abcde"
+text1 = "zabcde"
 
-text2 = "ade"
+text2 = "acez"
 
 
 print(longestCommonSubsequence(text1, text2))
-print('test case 2----- \n \n \n ')
+# print('test case 2----- \n \n \n ')
 # text3 = "bl"
 # text4 = "yby"
 # print(longestCommonSubsequence(text3, text4))
