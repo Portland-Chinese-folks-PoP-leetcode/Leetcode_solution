@@ -17,3 +17,10 @@ class Solution(object):
         res = 0
         self.traverse(root)
         return self.res
+
+    def maxDepth_v2(self, root):
+        if root is None:
+            return 0
+        left_max = self.maxDepth_v2(root.left)
+        right_max = self.maxDepth_v2(root.right)
+        return max(left_max, right_max)+1
