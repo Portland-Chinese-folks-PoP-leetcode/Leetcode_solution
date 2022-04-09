@@ -21,3 +21,5 @@ class Solution(object):
         if root.val > val:
             root.left = self.insertIntoBST(root.left, val)
         return root
+
+# https://labuladong.github.io/algo/2/20/41/
