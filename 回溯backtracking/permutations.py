@@ -1,6 +1,14 @@
 class Solution:
+    count = 0
+
+    def printIndent(self, n):
+        print("    "*n, end=' ')
+
     def permute(self, nums):
+
         def backtrack(nums, track, used):
+            # self.count = self.count+1
+            # self.printIndent(self.count)
             if len(track) == len(nums):
                 # print('current track is ',track)
                 """这一题的点睛之笔在这边
@@ -9,7 +17,9 @@ class Solution:
                 new 实现拷贝的效果，其他语言各有自己的方式。
                 """
                 res.append(list(track))
-                # print(res)
+                # self.printIndent(self.count)
+                # self.count = self.count-1
+                # print(track)
                 return
             for i in nums:
                 if used[i] == True:
@@ -23,7 +33,6 @@ class Solution:
         track = []
         used = {i: False for i in nums}
         backtrack(nums, track, used)
-        print('res***', res)
         return res
 
 
