@@ -14,3 +14,6 @@ class Solution:
                 track.pop(-1)
         backtrack(nums, 0)
         return res
+
+# 排序和剪枝的逻辑。
+# 体现在代码上，需要先进行排序，让相同的元素靠在一起，如果发现 nums[i] == nums[i-1]，则跳过：
