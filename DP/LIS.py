@@ -1,4 +1,5 @@
 # dp[i] 表示以 nums[i] 这个数结尾的最长递增子序列的长度
+# longest increasing subsequence
 def LIS(nums):
     dp = [1]*(len(nums))
     for i in range(0, len(nums)):

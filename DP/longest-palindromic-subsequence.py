@@ -54,7 +54,7 @@ def longestPalindromeSubseq_table(s: str) -> int:
                 dp[i][j] = dp[i + 1][j - 1] + 2
             else:
                 dp[i][j] = max(dp[i + 1][j], dp[i][j - 1])
-        print(dp)
+        # print(dp)
     return dp[0][n - 1]
 
 
@@ -62,5 +62,7 @@ string = 'baab'
 
 print(longestPalindromeSubseq_table(string))
 
-string = 'abwttw'
-print(string[0:len(string)])
+string2 = 'abwttw'
+n = len(string2)
+for i in range(n-1, -1, -1):
+    print(string[i])
