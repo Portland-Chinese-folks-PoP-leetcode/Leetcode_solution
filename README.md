@@ -10,3 +10,6 @@ This is Yune's new branch. Let's start our journey on this repo!
 - https://leetcode-cn.com/problems/permutations-ii/submissions/
 - https://leetcode.com/problems/subsets-ii/
 
+#### 4/23/2022
+- https://leetcode-cn.com/problems/combination-sum/submissions/
+- https://leetcode-cn.com/problems/number-of-islands/
