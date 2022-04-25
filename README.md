@@ -19,3 +19,6 @@ This is Yune's new branch. Let's start our journey on this repo!
 - https://leetcode-cn.com/problems/number-of-islands/
 - https://leetcode-cn.com/problems/max-area-of-island/
 - https://leetcode-cn.com/problems/count-sub-islands/
+
+#### 4/24/2022
+- https://leetcode-cn.com/problems/number-of-distinct-islands/
