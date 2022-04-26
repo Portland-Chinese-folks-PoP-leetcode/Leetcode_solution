@@ -22,3 +22,6 @@ class Solution:
             track.pop(-1)
         backtrack(left, right)
         return res
+
+# https://leetcode-cn.com/problems/generate-parentheses/submissions/
+# 在这题中我找到了一中全新的把list变成 string的方式
