@@ -1,4 +1,5 @@
 # it's easy, and easy to use structure framework
+#https://leetcode-cn.com/problems/open-the-lock/submissions/
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
         def plusOne(s: str, j: int):
