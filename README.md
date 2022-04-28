@@ -26,3 +26,6 @@ This is Yune's new branch. Let's start our journey on this repo!
 #### 4/25/2022
 - https://leetcode-cn.com/problems/generate-parentheses/
 - https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
+
+#### 4/28/2022
+-https://leetcode-cn.com/problems/open-the-lock
