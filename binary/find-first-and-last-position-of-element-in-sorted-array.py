@@ -27,6 +27,7 @@ class Solution:
                 elif nums[mid] > target:
                     right = mid
             return right-1
+
         if len(nums) == 0:
             return [-1, -1]
         elif target not in nums:
