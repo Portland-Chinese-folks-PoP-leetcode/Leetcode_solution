@@ -28,4 +28,15 @@ This is Yune's new branch. Let's start our journey on this repo!
 - https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
 
 #### 4/28/2022
--https://leetcode-cn.com/problems/open-the-lock
+- https://leetcode-cn.com/problems/open-the-lock
+
+
+#### Binary 专题
+- leftbound 两种实现，rightbound的两种实现
+- https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/
+- https://leetcode.cn/problems/binary-search/
+- https://leetcode.cn/problems/search-insert-position/
+
+#### May 9th
+- https://leetcode.cn/problems/merge-k-sorted-lists/submissions/
+- https://leetcode.com/problems/merge-two-sorted-lists/
