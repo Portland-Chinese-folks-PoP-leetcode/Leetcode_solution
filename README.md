@@ -40,3 +40,6 @@ This is Yune's new branch. Let's start our journey on this repo!
 #### May 9th
 - https://leetcode.cn/problems/merge-k-sorted-lists/submissions/
 - https://leetcode.com/problems/merge-two-sorted-lists/
+- https://leetcode.cn/problems/remove-nth-node-from-end-of-list/submissions/ 这题记得去好好写模板
+- https://leetcode.cn/problems/middle-of-the-linked-list/submissions/ 快慢指针
+- https://leetcode.cn/problems/linked-list-cycle/submissions/ 快慢指针
