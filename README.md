@@ -43,3 +43,7 @@ This is Yune's new branch. Let's start our journey on this repo!
 - https://leetcode.cn/problems/remove-nth-node-from-end-of-list/submissions/ 这题记得去好好写模板
 - https://leetcode.cn/problems/middle-of-the-linked-list/submissions/ 快慢指针
 - https://leetcode.cn/problems/linked-list-cycle/submissions/ 快慢指针
+
+#### May 10th
+- https://leetcode.cn/problems/linked-list-cycle-ii/submissions/
+- https://leetcode.cn/problems/intersection-of-two-linked-lists/
