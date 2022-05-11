@@ -19,3 +19,28 @@ class Solution(object):
             return reverseN(head, n)
         head.next = self.reverseBetween(head.next, m-1, n-1)
         return head
+
+# 第二个版本 我个人更喜欢第二个版本
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+
+
+class Solution:
+    def reverseBetween(self, head: ListNode, left: int, right: int) -> ListNode:
+        def reverseN(head, n):
+            if n == 1:
+                successor = head.next
+                return head, successor
+            last, successor = reverseN(head.next, n-1)
+            head.next.next = head
+            head.next = successor
+            return last, successor
+
+        if left == 1:
+            res, _ = reverseN(head, right)
+            return res
+        head.next = self.reverseBetween(head.next, left-1, right-1)
+        return head
