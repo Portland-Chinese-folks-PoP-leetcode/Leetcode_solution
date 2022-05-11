@@ -19,3 +19,24 @@ class Solution:
 
 输入一个节点 head，将「以 head 为起点」的链表反转，并返回反转之后的头结点。
 """
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+
+# 以下为迭代方式的实现
+
+
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+        pre = None
+        cur = head
+        nxt = head
+        while cur is not None:
+            nxt = cur.next
+            cur.next = pre
+            pre = cur
+            cur = nxt
+        return pre
