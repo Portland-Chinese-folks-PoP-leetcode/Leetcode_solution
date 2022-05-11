@@ -47,3 +47,5 @@ This is Yune's new branch. Let's start our journey on this repo!
 #### May 10th
 - https://leetcode.cn/problems/linked-list-cycle-ii/submissions/
 - https://leetcode.cn/problems/intersection-of-two-linked-lists/
+- https://leetcode.cn/problems/reverse-linked-list/  递归实现反转单链表(模板)， 需要背熟
+- https://leetcode.cn/problems/reverse-linked-list-ii/ python的实现不太一样 需要背熟
