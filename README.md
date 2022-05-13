@@ -57,3 +57,9 @@ This is Yune's new branch. Let's start our journey on this repo!Don't be a pussy
 - https://leetcode.cn/problems/palindrome-linked-list/submissions/
 
 ![output](https://labuladong.github.io/algo/images/%e5%9b%9e%e6%96%87%e9%93%be%e8%a1%a8/1.gif)
+
+#### May 13th
+- https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
+- https://leetcode.cn/problems/remove-duplicates-from-sorted-list/submissions/
+- https://leetcode.cn/problems/remove-element/
+- https://leetcode.cn/problems/move-zeroes/submissions/
