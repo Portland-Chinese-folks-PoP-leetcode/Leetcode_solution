@@ -55,3 +55,5 @@ This is Yune's new branch. Let's start our journey on this repo!Don't be a pussy
 - https://leetcode.cn/problems/reverse-nodes-in-k-group/submissions/ 用迭代实现反转
 - https://leetcode.cn/problems/valid-palindrome/submissions/
 - https://leetcode.cn/problems/palindrome-linked-list/submissions/
+
+![output](https://labuladong.github.io/algo/images/%e5%9b%9e%e6%96%87%e9%93%be%e8%a1%a8/1.gif)
