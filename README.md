@@ -51,15 +51,20 @@ This is Yune's new branch. Let's start our journey on this repo!Don't be a pussy
 - https://leetcode.cn/problems/reverse-linked-list/  递归实现反转单链表(模板)， 需要背熟
 - https://leetcode.cn/problems/reverse-linked-list-ii/ python的实现不太一样 需要背熟
 
-#### May 11th
+#### May 11th 
 - https://leetcode.cn/problems/reverse-nodes-in-k-group/submissions/ 用迭代实现反转
 - https://leetcode.cn/problems/valid-palindrome/submissions/
 - https://leetcode.cn/problems/palindrome-linked-list/submissions/
 
 ![output](https://labuladong.github.io/algo/images/%e5%9b%9e%e6%96%87%e9%93%be%e8%a1%a8/1.gif)
 
-#### May 13th
-- https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
-- https://leetcode.cn/problems/remove-duplicates-from-sorted-list/submissions/
-- https://leetcode.cn/problems/remove-element/
-- https://leetcode.cn/problems/move-zeroes/submissions/
+#### May 13th （快慢双指针）
+- https://leetcode.cn/problems/remove-duplicates-from-sorted-array/  原地修改数组 (快慢)
+- https://leetcode.cn/problems/remove-duplicates-from-sorted-list/submissions/   原地修改链表 (快慢)
+- https://leetcode.cn/problems/remove-element/  原地修改数组 (快慢)
+- https://leetcode.cn/problems/move-zeroes/submissions/  原地修改数组 (快慢)
+
+#### May 18th （左右双指针）
+- https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/submissions/ （两边向中间move的指针）
+- https://leetcode.cn/problems/reverse-string/submissions/ (两边向中间move的指针)
+- https://leetcode.cn/problems/longest-palindromic-substring/submissions/ (中间向两边move的指针)
