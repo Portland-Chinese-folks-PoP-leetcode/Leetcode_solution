@@ -74,3 +74,8 @@ This is Yune's new branch. Let's start our journey on this repo!Don't be a pussy
 
 #### May 20th （前缀和）
 - https://leetcode.cn/problems/range-sum-query-2d-immutable/
+
+#### May 21rg (difference array)
+- https://leetcode.cn/problems/range-addition/submissions/
+- https://leetcode.cn/problems/corporate-flight-bookings/
+- https://leetcode.cn/problems/car-pooling/submissions/
