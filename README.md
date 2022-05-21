@@ -68,3 +68,9 @@ This is Yune's new branch. Let's start our journey on this repo!Don't be a pussy
 - https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/submissions/ （两边向中间move的指针）
 - https://leetcode.cn/problems/reverse-string/submissions/ (两边向中间move的指针)
 - https://leetcode.cn/problems/longest-palindromic-substring/submissions/ (中间向两边move的指针)
+
+#### May 19th （前缀和）
+- https://leetcode.cn/problems/range-sum-query-immutable/
+
+#### May 20th （前缀和）
+- https://leetcode.cn/problems/range-sum-query-2d-immutable/
