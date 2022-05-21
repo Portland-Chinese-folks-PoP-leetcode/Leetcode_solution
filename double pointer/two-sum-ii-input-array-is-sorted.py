@@ -1,5 +1,6 @@
 # https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/submissions/
 # 左右双指针
+
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         left = 0
