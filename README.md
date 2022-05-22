@@ -75,7 +75,14 @@ This is Yune's new branch. Let's start our journey on this repo!Don't be a pussy
 #### May 20th （前缀和）
 - https://leetcode.cn/problems/range-sum-query-2d-immutable/
 
-#### May 21rg (difference array)
+#### May 21st (difference array)
 - https://leetcode.cn/problems/range-addition/submissions/
 - https://leetcode.cn/problems/corporate-flight-bookings/
 - https://leetcode.cn/problems/car-pooling/submissions/
+
+
+#### May 22nd (sliding window)
+- https://leetcode.cn/problems/minimum-window-substring/submissions/
+- https://leetcode.cn/problems/permutation-in-string/submissions/
+- https://leetcode.com/problems/find-all-anagrams-in-a-string/
+- https://leetcode.cn/problems/longest-substring-without-repeating-characters/submissions/
