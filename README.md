@@ -1,6 +1,6 @@
 # Leetcode_solution
-Every contributor should follow the organization rule and prohibit pornography , Actively leetcoding
-This is Yune's new branch. Let's start our journey on this repo!Don't be a pussy before algorithem problems. Show me your fucking masculinity. Let's fuck algorithem.
+
+This is Yune's new branch. Let's start our journey on this repo. Don't be a pussy before algorithem problems. Show me your fucking masculinity. Let's fuck algorithem.
 ![output](img/fight_club.png)
 
 该readme 用于每天记录 做了哪些题
