@@ -1,6 +1,11 @@
 # Leetcode_solution
 
-This is Yune's new branch. Let's start our journey on this repo. Don't be a pussy before algorithem problems. Show me your fucking masculinity. Let's fuck algorithem.
+This is Yune's Leetcode repo. I build this repo to help cs and cs align students in northeastern university to better crack leetcode solution. Some of the code is still navie and perhaps not the best way. I still have a long path to walk ahead. But The repo implement a template idea. 
+
+All the code here is according to [labuladong](https://github.com/labuladong/fucking-algorithm), but a python version. If you were a labuladong reader , but you prefer to use python as your weapon on leetcode. You are in the right battle field.
+
+Rule No.1 
+- Don't be a coward before algorithem problems. Show me your gut, and let's fuck algorithem.
 ![output](img/fight_club.png)
 
 该readme 用于每天记录 做了哪些题
