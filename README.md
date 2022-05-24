@@ -4,6 +4,8 @@ This is Yune's Leetcode repo. I build this repo to help cs and cs align students
 
 All the code here is according to [labuladong](https://github.com/labuladong/fucking-algorithm), but a python version. If you were a labuladong reader , but you prefer to use python as your weapon on leetcode. You are in the right battle field.
 
+I build this repo initially in this [organization](https://github.com/Portland-Chinese-folks-PoP-leetcode/Leetcode_solution), If you want to check some template written in python. Go to [issue tab](https://github.com/Portland-Chinese-folks-PoP-leetcode/Leetcode_solution/issues) 
+
 Rule No.1 
 - Don't be a coward before algorithem problems. Show me your gut, and let's fuck algorithem.
 ![output](img/fight_club.png)
