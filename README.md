@@ -93,3 +93,7 @@ Rule No.1
 - https://leetcode.cn/problems/permutation-in-string/submissions/
 - https://leetcode.com/problems/find-all-anagrams-in-a-string/
 - https://leetcode.cn/problems/longest-substring-without-repeating-characters/submissions/
+
+#### May 24nd (特殊二分查找) 需要自己设定 f
+- https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/solution/-by-sparkk-dni3/
+- https://leetcode.cn/problems/koko-eating-bananas/
