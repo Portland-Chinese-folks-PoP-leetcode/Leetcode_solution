@@ -94,6 +94,14 @@ Rule No.1
 - https://leetcode.com/problems/find-all-anagrams-in-a-string/
 - https://leetcode.cn/problems/longest-substring-without-repeating-characters/submissions/
 
-#### May 24nd (特殊二分查找) 需要自己设定 f
+#### May 24th (特殊二分查找) 需要自己设定 f
 - https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/solution/-by-sparkk-dni3/
 - https://leetcode.cn/problems/koko-eating-bananas/
+
+#### Mays 25th (接着前一天 还是抽象二分)，但我感觉这题用dp也能做
+- https://leetcode.cn/problems/split-array-largest-sum/
+
+#### May 26th (打家劫舍 其实还是dp的table和memo)
+- https://leetcode.cn/problems/house-robber/submissions/
+- https://leetcode.cn/problems/house-robber-ii/submissions/
+- https://leetcode.cn/problems/house-robber-iii/submissions/
