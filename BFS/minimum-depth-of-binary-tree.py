@@ -24,3 +24,6 @@ class Solution:
                     q.append(current.right)
             depth += 1
         return depth
+
+
+# while 循环控制一层一层往下走，for 循环利用 sz 变量控制从左到右遍历每一层二叉树节点：

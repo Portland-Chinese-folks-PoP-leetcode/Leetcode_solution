@@ -105,3 +105,11 @@ Rule No.1
 - https://leetcode.cn/problems/house-robber/submissions/
 - https://leetcode.cn/problems/house-robber-ii/submissions/
 - https://leetcode.cn/problems/house-robber-iii/submissions/
+
+#### May 27th-May31st (我在摸鱼) 股票问题本质还是多维的DP table
+- https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/
+- https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/
+- https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/
+- https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+- https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+- https: // leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/submissions/

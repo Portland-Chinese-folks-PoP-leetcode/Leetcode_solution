@@ -36,3 +36,5 @@ class Solution:
 
             step += 1
         return -1
+
+# 这里的neighbour中存储的数据是 索引，而不是board上的版块

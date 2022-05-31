@@ -1,3 +1,4 @@
+#https://leetcode-cn.com/problems/number-of-distinct-islands
 class Solution:
     def numDistinctIslands(self, grid) -> int:
 
@@ -28,3 +29,7 @@ class Solution:
                     island[str(sb)] = str(sb)
 
         return len(island)
+    
+    
+aaa=[1.,2,4,5,6]
+print(str(aaa))
