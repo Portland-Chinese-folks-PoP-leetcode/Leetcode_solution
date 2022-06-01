@@ -19,7 +19,7 @@ Rule No.2
 复习 第一轮()
 # 复习的第一个周期（3天）
 #### single linked list
-- https://leetcode.cn/problems/merge-k-sorted-lists/submissions/
+- [merge-k-sorted-lists](https://leetcode.cn/problems/merge-k-sorted-lists/submissions/) [answer](linked_list/merge-k-sorted-lists-priorityqueue-version.py)
 - https://leetcode.com/problems/merge-two-sorted-lists/
 - https://leetcode.cn/problems/remove-nth-node-from-end-of-list/submissions/ 这题记得去好好写模板
 - https://leetcode.cn/problems/middle-of-the-linked-list/submissions/ 快慢指针
