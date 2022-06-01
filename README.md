@@ -43,13 +43,13 @@ Rule No.2
 - [search-insert-position](https://leetcode.cn/problems/search-insert-position/)   [**solution**](binary/search-insert-position.py) 
 
 #### double pointer 双指针
-- [remove-duplicates-from-sorted-array](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)    [**solution**](double pointer/remove-duplicates-from-sorted-array.py)   原地修改数组 (快慢)
-- [remove-duplicates-from-sorted-list](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/submissions/)   [**solution**](double pointer/remove-duplicates-from-sorted-list.py) 原地修改链表 (快慢)
-- [remove-element](https://leetcode.cn/problems/remove-element/)  [**solution**](double pointer/remove-element.py) 原地修改数组 (快慢)
-- [move-zeroes](https://leetcode.cn/problems/move-zeroes/)    [**solution**](double pointer/moveZeroes.py) 原地修改数组 (快慢)
-- [two-sum-ii-input-array-is-sorted](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/)   [**solution**](double pointer/two-sum-ii-input-array-is-sorted.py) （两边向中间move的指针）
-- [reverse-string](https://leetcode.cn/problems/reverse-string)    [**solution**](double pointer/reverse-string.py)(两边向中间move的指针)
-- [longest-palindromic-substring](https://leetcode.cn/problems/longest-palindromic-substring/)   [**solution**](double pointer/longest-palindromic-substring.py)(中间向两边move的指针)    
+- [remove-duplicates-from-sorted-array](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)    [**solution**](doublePointer/remove-duplicates-from-sorted-array.py)   原地修改数组 (快慢)
+- [remove-duplicates-from-sorted-list](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/submissions/)   [**solution**](doublePointer/remove-duplicates-from-sorted-list.py) 原地修改链表 (快慢)
+- [remove-element](https://leetcode.cn/problems/remove-element/)  [**solution**](doublePointer/remove-element.py) 原地修改数组 (快慢)
+- [move-zeroes](https://leetcode.cn/problems/move-zeroes/)    [**solution**](doublePointer/moveZeroes.py) 原地修改数组 (快慢)
+- [two-sum-ii-input-array-is-sorted](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/)   [**solution**](doublePointer/two-sum-ii-input-array-is-sorted.py) （两边向中间move的指针）
+- [reverse-string](https://leetcode.cn/problems/reverse-string)    [**solution**](doublePointer/reverse-string.py)(两边向中间move的指针)
+- [longest-palindromic-substring](https://leetcode.cn/problems/longest-palindromic-substring/)   [**solution**](doublePointer/longest-palindromic-substring.py)(中间向两边move的指针)    
 
 #### slidng window(典型快慢指针，快慢中间就是所谓的窗口)，用于结局子串问题
 - [minimum-window-substring](https://leetcode.cn/problems/minimum-window-substring)  [**solution**](sliding window/minimum-window-substring.py)
