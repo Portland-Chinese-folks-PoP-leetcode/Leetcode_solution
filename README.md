@@ -34,8 +34,8 @@ Rule No.2
 - [reverse-nodes-in-k-group](https://leetcode.cn/problems/reverse-nodes-in-k-group/submissions/)     [**solution**](linked_list/reverse-nodes-in-k-group.py)  用迭代实现反转
 
 #### 回文串 |<—— left right ——>|
-- https://leetcode.cn/problems/valid-palindrome/submissions/
-- https://leetcode.cn/problems/palindrome-linked-list/submissions/
+- [valid-palindrome](https://leetcode.cn/problems/valid-palindrome/submissions/)   [**solution**](string/valid-palindrome.py) 
+- [palindrome-linked-list](https://leetcode.cn/problems/palindrome-linked-list/submissions/)   [**solution 1**](linked_list/palindrome-linked-list.py)   [**solution 2**](linked_list/palindrome-linked-list-v2.py) 
 
 #### binary  |left——> <——right|
 - https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/
