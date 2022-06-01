@@ -40,18 +40,27 @@ Rule No.2
 - https://leetcode.cn/problems/binary-search/
 - https://leetcode.cn/problems/search-insert-position/
 
-#### Nsum
-- https://leetcode.cn/problems/two-sum/
-- https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/
-- https://leetcode.cn/problems/3sum/
-- https://leetcode.cn/problems/4sum/
-
+#### double pointer 双指针
+- https://leetcode.cn/problems/remove-duplicates-from-sorted-array/  原地修改数组 (快慢)
+- https://leetcode.cn/problems/remove-duplicates-from-sorted-list/submissions/   原地修改链表 (快慢)
+- https://leetcode.cn/problems/remove-element/  原地修改数组 (快慢)
+- https://leetcode.cn/problems/move-zeroes/submissions/  原地修改数组 (快慢)
+- https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/submissions/ （两边向中间move的指针）
+- https://leetcode.cn/problems/reverse-string/submissions/ (两边向中间move的指针)
+- https://leetcode.cn/problems/longest-palindromic-substring/submissions/ (中间向两边move的指针)
 
 #### slidng window(典型快慢指针，快慢中间就是所谓的窗口)，用于结局子串问题
 - https://leetcode.cn/problems/minimum-window-substring/submissions/
 - https://leetcode.cn/problems/permutation-in-string/submissions/
 - https://leetcode.com/problems/find-all-anagrams-in-a-string/
 - https://leetcode.cn/problems/longest-substring-without-repeating-characters/submissions/
+
+#### Nsum
+- https://leetcode.cn/problems/two-sum/
+- https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/
+- https://leetcode.cn/problems/3sum/
+- https://leetcode.cn/problems/4sum/
+
 
 #### 前缀
 - https://leetcode.cn/problems/range-sum-query-immutable/
@@ -62,11 +71,3 @@ Rule No.2
 - https://leetcode.cn/problems/corporate-flight-bookings/
 - https://leetcode.cn/problems/car-pooling/submissions/
 
-#### double pointer 双指针
-- https://leetcode.cn/problems/remove-duplicates-from-sorted-array/  原地修改数组 (快慢)
-- https://leetcode.cn/problems/remove-duplicates-from-sorted-list/submissions/   原地修改链表 (快慢)
-- https://leetcode.cn/problems/remove-element/  原地修改数组 (快慢)
-- https://leetcode.cn/problems/move-zeroes/submissions/  原地修改数组 (快慢)
-- https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/submissions/ （两边向中间move的指针）
-- https://leetcode.cn/problems/reverse-string/submissions/ (两边向中间move的指针)
-- https://leetcode.cn/problems/longest-palindromic-substring/submissions/ (中间向两边move的指针)
