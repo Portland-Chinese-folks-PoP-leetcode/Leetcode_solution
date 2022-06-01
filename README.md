@@ -26,10 +26,12 @@ Rule No.2
 - [linked-list-cycle](https://leetcode.cn/problems/linked-list-cycle/submissions/)   [**solution**](linked_list/linked-list-cycle.py) 快慢指针
 - [linked-list-cycle-ii](https://leetcode.cn/problems/linked-list-cycle-ii/submissions/)   [**solution**](linked_list/linked-list-cycle-ii.py) 第一次相遇 fast和 slow速度不同，相遇后slow退回head，跑到再次相遇（此时快慢速度一样）
 - [intersection-of-two-linked-lists](https://leetcode.cn/problems/intersection-of-two-linked-lists/)   [**solution**](linked_list/intersection-of-two-linked-lists.py)
+
+
 #### 反转 single linked list
-- https://leetcode.cn/problems/reverse-linked-list/  递归实现反转单链表(模板)， 需要背熟
-- https://leetcode.cn/problems/reverse-linked-list-ii/ python的实现不太一样 需要背熟
-- https://leetcode.cn/problems/reverse-nodes-in-k-group/submissions/ 用迭代实现反转
+- [reverse-linked-list](https://leetcode.cn/problems/reverse-linked-list/)  [**solution**](linked_list/reverse-linked-list.py)   递归实现反转单链表(模板)， 需要背熟
+- [reverse-linked-list-ii](https://leetcode.cn/problems/reverse-linked-list-ii/)   [**solution**](linked_list/reverse-linked-list-ii.py)  python的实现不太一样 需要背熟
+- [reverse-nodes-in-k-group](https://leetcode.cn/problems/reverse-nodes-in-k-group/submissions/)     [**solution**](linked_list/reverse-nodes-in-k-group.py)  用迭代实现反转
 
 #### 回文串 |<—— left right ——>|
 - https://leetcode.cn/problems/valid-palindrome/submissions/
