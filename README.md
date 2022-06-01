@@ -52,10 +52,10 @@ Rule No.2
 - [longest-palindromic-substring](https://leetcode.cn/problems/longest-palindromic-substring/)   [**solution**](doublePointer/longest-palindromic-substring.py)(中间向两边move的指针)    
 
 #### slidng window(典型快慢指针，快慢中间就是所谓的窗口)，用于结局子串问题
-- [minimum-window-substring](https://leetcode.cn/problems/minimum-window-substring)  [**solution**](sliding window/minimum-window-substring.py)
-- [permutation-in-string](https://leetcode.cn/problems/permutation-in-string)  [**solution**](sliding window/permutation-in-string.py)
-- [find-all-anagrams-in-a-string](https://leetcode.com/problems/find-all-anagrams-in-a-string/) [**solution**](sliding window/find-all-anagrams-in-a-string.py)
-- [longest-substring-without-repeating-characters](https://leetcode.cn/problems/longest-substring-without-repeating-characters) [**solution**](sliding window/longest-substring-without-repeating-characters.py)
+- [minimum-window-substring](https://leetcode.cn/problems/minimum-window-substring)  [**solution**](slidingWindow/minimum-window-substring.py)
+- [permutation-in-string](https://leetcode.cn/problems/permutation-in-string)  [**solution**](slidingWindow/permutation-in-string.py)
+- [find-all-anagrams-in-a-string](https://leetcode.com/problems/find-all-anagrams-in-a-string/) [**solution**](slidingWindow/find-all-anagrams-in-a-string.py)
+- [longest-substring-without-repeating-characters](https://leetcode.cn/problems/longest-substring-without-repeating-characters) [**solution**](slidingWindow/longest-substring-without-repeating-characters.py)
 
 #### Nsum
 - [two-sum](https://leetcode.cn/problems/two-sum/)
