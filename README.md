@@ -8,11 +8,13 @@ I build this repo initially in this [organization](https://github.com/Portland-C
 
 Rule No.1 
 - Don't be a coward before algorithem problems. Show me your gut, and let's fuck algorithem.
+
 ![output](img/fight_club.png)
 
 Rule No.2
 - Talk is cheap, Code is valuable. So Shut The Fuck Up. 《话越多越菜》
-![output](img/Pulp-Fiction)
+
+![output](img/Pulp-Fiction.jpeg)
 
 复习 第一轮()
 # 复习的第一个周期（3天）
