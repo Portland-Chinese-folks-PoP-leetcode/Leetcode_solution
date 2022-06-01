@@ -12,7 +12,7 @@ Rule No.1
 
 Rule No.2
 - Talk is cheap, Code is valuable. So Shut The Fuck Up. 《话越多越菜》
-![output](img/Pulp-Fiction.jpeg)
+![output](img/Pulp-Fiction)
 
 复习 第一轮()
 # 复习的第一个周期（3天）
