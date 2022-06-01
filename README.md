@@ -20,12 +20,12 @@ Rule No.2
 # 复习的第一个周期（3天）
 #### single linked list
 - [merge-k-sorted-lists](https://leetcode.cn/problems/merge-k-sorted-lists/submissions/) [**solution**](linked_list/merge-k-sorted-lists-priorityqueue-version.py)
-- https://leetcode.com/problems/merge-two-sorted-lists/
-- https://leetcode.cn/problems/remove-nth-node-from-end-of-list/submissions/ 这题记得去好好写模板
-- https://leetcode.cn/problems/middle-of-the-linked-list/submissions/ 快慢指针
-- https://leetcode.cn/problems/linked-list-cycle/submissions/ 快慢指针
-- https://leetcode.cn/problems/linked-list-cycle-ii/submissions/
-- https://leetcode.cn/problems/intersection-of-two-linked-lists/
+- [merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)  [**solution**](linked_list/merge-two-sorted-lists.py)
+- [remove-nth-node-from-end-of-list](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/submissions/)  [**solution**](linked_list/remove-nth-node-from-end-of-list.py)  这题记得去好好写模板
+- [middle-of-the-linked-list](https://leetcode.cn/problems/middle-of-the-linked-list/submissions/)  [**solution**](linked_list/middle-of-the-linked-list.py) 快慢指针
+- [linked-list-cycle](https://leetcode.cn/problems/linked-list-cycle/submissions/)   [**solution**](linked_list/linked-list-cycle.py) 快慢指针
+- [linked-list-cycle-ii](https://leetcode.cn/problems/linked-list-cycle-ii/submissions/)   [**solution**](linked_list/linked-list-cycle-ii.py)
+- [intersection-of-two-linked-lists](https://leetcode.cn/problems/intersection-of-two-linked-lists/)   [**solution**](linked_list/intersection-of-two-linked-lists.py)
 #### 反转 single linked list
 - https://leetcode.cn/problems/reverse-linked-list/  递归实现反转单链表(模板)， 需要背熟
 - https://leetcode.cn/problems/reverse-linked-list-ii/ python的实现不太一样 需要背熟
