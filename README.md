@@ -21,10 +21,10 @@ Rule No.2
 #### single linked list
 - [merge-k-sorted-lists](https://leetcode.cn/problems/merge-k-sorted-lists/submissions/) [**solution**](linked_list/merge-k-sorted-lists-priorityqueue-version.py)
 - [merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)  [**solution**](linked_list/merge-two-sorted-lists.py)
-- [remove-nth-node-from-end-of-list](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/submissions/)  [**solution**](linked_list/remove-nth-node-from-end-of-list.py)  这题记得去好好写模板
+- [remove-nth-node-from-end-of-list](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/submissions/)  [**solution**](linked_list/remove-nth-node-from-end-of-list.py)  先后指针
 - [middle-of-the-linked-list](https://leetcode.cn/problems/middle-of-the-linked-list/submissions/)  [**solution**](linked_list/middle-of-the-linked-list.py) 快慢指针
 - [linked-list-cycle](https://leetcode.cn/problems/linked-list-cycle/submissions/)   [**solution**](linked_list/linked-list-cycle.py) 快慢指针
-- [linked-list-cycle-ii](https://leetcode.cn/problems/linked-list-cycle-ii/submissions/)   [**solution**](linked_list/linked-list-cycle-ii.py)
+- [linked-list-cycle-ii](https://leetcode.cn/problems/linked-list-cycle-ii/submissions/)   [**solution**](linked_list/linked-list-cycle-ii.py) 第一次相遇 fast和 slow速度不同，相遇后slow退回head，跑到再次相遇（此时快慢速度一样）
 - [intersection-of-two-linked-lists](https://leetcode.cn/problems/intersection-of-two-linked-lists/)   [**solution**](linked_list/intersection-of-two-linked-lists.py)
 #### 反转 single linked list
 - https://leetcode.cn/problems/reverse-linked-list/  递归实现反转单链表(模板)， 需要背熟
