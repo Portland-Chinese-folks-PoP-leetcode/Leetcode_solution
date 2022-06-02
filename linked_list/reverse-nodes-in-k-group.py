@@ -15,6 +15,7 @@ class Solution:
                 pre = cur
                 cur = nxt
             return pre
+
         if head == None:
             return None
         # 区间 [a, b) 包含 k 个待反转元素
@@ -26,7 +27,7 @@ class Solution:
                 return head
             b = b.next
         # 反转前 k 个元素
-        newHead = reverse(a, b)
+        newHead = reverse(a, b)  # 这个newhead其实就是b
         # 递归反转后续链表并连接起来
         a.next = self.reverseKGroup(b, k)
         return newHead

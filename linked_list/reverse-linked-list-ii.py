@@ -29,7 +29,9 @@ class Solution(object):
 
 
 class Solution:
+    # 函数的定义是返回
     def reverseBetween(self, head: ListNode, left: int, right: int) -> ListNode:
+        # reverseN 的定义是 翻转前N个node并返回头结点
         def reverseN(head, n):
             if n == 1:
                 successor = head.next
