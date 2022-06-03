@@ -31,11 +31,11 @@ class Solution:
         while fast is not None and fast.next is not None:
             fast = fast.next.next
             slow = slow.next
-        if fast is not None:
+        if fast is not None:  # In this circumstance the number of node is odd
             slow = slow.next
         left = head
         right = self.reverse(slow)
-        while right is not None:
+        while right is not None:  # 为什么这里用right来判断而不是用 left来判断，因为right永远比left更接近null，（在双数节点数的时候）
             if left.val != right.val:
                 return False
             left = left.next
