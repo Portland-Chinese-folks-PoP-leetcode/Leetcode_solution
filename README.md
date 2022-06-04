@@ -57,7 +57,7 @@ Rule No.2
 - [find-all-anagrams-in-a-string](https://leetcode.com/problems/find-all-anagrams-in-a-string/) [**solution**](slidingWindow/find-all-anagrams-in-a-string.py)
 - [longest-substring-without-repeating-characters](https://leetcode.cn/problems/longest-substring-without-repeating-characters) [**solution**](slidingWindow/longest-substring-without-repeating-characters.py)
 
-#### Nsum
+#### Nsum 这玩意就得背熟，尤其里面那个NsumTarget(nums,n,start,target)函数，是真的难打
 - [two-sum](https://leetcode.cn/problems/two-sum/)   [**solution**](N-sum/two-sum.py)
 - [two-sum-ii-input-array-is-sorted](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/)    [**solution**](doublePointer/two-sum-ii-input-array-is-sorted.py)
 - [3sum](https://leetcode.cn/problems/3sum/)    [**solution**](N-sum/threeSum.py)
