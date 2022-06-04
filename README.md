@@ -58,10 +58,10 @@ Rule No.2
 - [longest-substring-without-repeating-characters](https://leetcode.cn/problems/longest-substring-without-repeating-characters) [**solution**](slidingWindow/longest-substring-without-repeating-characters.py)
 
 #### Nsum
-- [two-sum](https://leetcode.cn/problems/two-sum/)
-- [two-sum-ii-input-array-is-sorted](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/)
-- [3sum](https://leetcode.cn/problems/3sum/)
-- [4sum](https://leetcode.cn/problems/4sum/)
+- [two-sum](https://leetcode.cn/problems/two-sum/)   [**solution**](N-sum/two-sum.py)
+- [two-sum-ii-input-array-is-sorted](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/)    [**solution**](doublePointer/two-sum-ii-input-array-is-sorted.py)
+- [3sum](https://leetcode.cn/problems/3sum/)    [**solution**](N-sum/threeSum.py)
+- [4sum](https://leetcode.cn/problems/4sum/)    [**solution**](N-sum/4sum.py)
 
 
 #### 前缀
