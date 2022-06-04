@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         def nSumTarget(nums, n, start, target):
@@ -36,3 +37,9 @@ class Solution:
         nums = sorted(nums)
         result = nSumTarget(nums, 4, 0, target)
         return result
+
+
+nums = [1, 0, -1, 0, -2, 2]
+s = Solution()
+print(s.fourSum([1, 0, -1, 0, -2, 2], 0))
+
