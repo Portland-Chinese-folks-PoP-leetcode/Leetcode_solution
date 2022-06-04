@@ -70,7 +70,7 @@ Rule No.2
 
 #### 差分数组difference array
 - [range-addition](https://leetcode.cn/problems/range-addition/submissions/)    [**solution**](differenceArray/range-addition.py)
-- [corporate-flight-bookings](difference Array/corporate-flight-bookings.py)    [**solution**](differenceArray/corporate-flight-bookings.py)
+- [corporate-flight-bookings](https://leetcode.cn/problems/corporate-flight-bookings/)    [**solution**](differenceArray/corporate-flight-bookings.py)
 - [car-pooling](https://leetcode.cn/problems/car-pooling/submissions/)    [**solution**](differenceArray/car-pooling.py)
 
 # 复习的第二个大块
