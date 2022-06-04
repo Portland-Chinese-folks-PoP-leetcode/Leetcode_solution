@@ -65,13 +65,14 @@ Rule No.2
 
 
 #### 前缀
-- [range-sum-query-immutable](https://leetcode.cn/problems/range-sum-query-immutable/)
-- [range-sum-query-2d-immutable](https://leetcode.cn/problems/range-sum-query-2d-immutable/)
+- [range-sum-query-immutable](https://leetcode.cn/problems/range-sum-query-immutable/)    [**solution**](rangesum前缀/range-sum-query-immutable.py)
+- [range-sum-query-2d-immutable](https://leetcode.cn/problems/range-sum-query-2d-immutable/)    [**solution**](rangesum前缀/range-sum-query-2d-immutable.py)
 
 #### 差分数组difference array
-- [range-addition](https://leetcode.cn/problems/range-addition/submissions/)
-- [corporate-flight-bookings](https://leetcode.cn/problems/corporate-flight-bookings/)
-- [car-pooling](https://leetcode.cn/problems/car-pooling/submissions/)
+- [range-addition](https://leetcode.cn/problems/range-addition/submissions/)    [**solution**](difference Array/range-addition.py)
+- [corporate-flight-bookings](difference Array/corporate-flight-bookings.py)    [**solution**](difference Array/corporate-flight-bookings.py)
+- [car-pooling](https://leetcode.cn/problems/car-pooling/submissions/)    [**solution**](difference Array/car-pooling.py)
 
+# 复习的第二个大块
 #### section_name
 - [question_name](leetcode_link)  [**Solution**](relative_path)
