@@ -69,9 +69,9 @@ Rule No.2
 - [range-sum-query-2d-immutable](https://leetcode.cn/problems/range-sum-query-2d-immutable/)    [**solution**](rangesum前缀/range-sum-query-2d-immutable.py)
 
 #### 差分数组difference array
-- [range-addition](https://leetcode.cn/problems/range-addition/submissions/)    [**solution**](difference Array/range-addition.py)
-- [corporate-flight-bookings](difference Array/corporate-flight-bookings.py)    [**solution**](difference \Array/corporate-flight-bookings.py)
-- [car-pooling](https://leetcode.cn/problems/car-pooling/submissions/)    [**solution**](difference \Array/car-pooling.py)
+- [range-addition](https://leetcode.cn/problems/range-addition/submissions/)    [**solution**](differenceArray/range-addition.py)
+- [corporate-flight-bookings](difference Array/corporate-flight-bookings.py)    [**solution**](differenceArray/corporate-flight-bookings.py)
+- [car-pooling](https://leetcode.cn/problems/car-pooling/submissions/)    [**solution**](differenceArray/car-pooling.py)
 
 # 复习的第二个大块
 #### section_name
