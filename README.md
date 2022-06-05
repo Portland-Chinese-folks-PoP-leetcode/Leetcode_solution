@@ -73,7 +73,7 @@ Rule No.2
 - [corporate-flight-bookings](https://leetcode.cn/problems/corporate-flight-bookings/)    [**solution**](differenceArray/corporate-flight-bookings.py)
 - [car-pooling](https://leetcode.cn/problems/car-pooling/submissions/)    [**solution**](differenceArray/car-pooling.py)
 
-# 复习的第二个大块 ()
+# 复习的第二轮 (费城回来以后)
 
 
 ## 二叉树
@@ -125,6 +125,29 @@ Rule No.2
 ## 暴力穷举
 
 #### backtracking回溯
+
+[回溯算法解题套路框架](https://labuladong.github.io/algo/4/29/103/)
+- [n-queens](https://leetcode.cn/problems/n-queens/)  [**Solution**](backtracking/n-queens.py)
+- [permutations](https://leetcode.cn/problems/permutations/)  [**Solution**](backtracking/permutations.py) 用了printindent的操作(这个套路很骚，适用于所有递归)
+  
+[经典回溯算法：集合划分问题](https://labuladong.github.io/algo/4/29/104/)
+- [partition-to-k-equal-sum-subsets](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/)  [**Solution**](backtracking/partition-to-k-equal-sum-subsets.py)
+
+[回溯算法秒杀所有排列/组合/子集问题](https://labuladong.github.io/algo/4/29/105/)
+
+- [permutations](https://leetcode.cn/problems/permutations/)  [**Solution**](backtracking/permutations.py) 用了printindent的操作(这个套路很骚，适用于所有递归)
+- [subsets](https://leetcode.cn/problems/subsets/)  [**Solution**](backtracking/subsets.py)
+- [subsets-ii](https://leetcode.cn/problems/subsets-ii/)  [**Solution**](backtracking/subsets-ii.py)
+- [permutations-ii](https://leetcode.cn/problems/permutations-ii/)  [**Solution**](backtracking/permutations-ii.py)
+- [combinations](https://leetcode.cn/problems/combinations/)  [**Solution**](backtracking/combinations.py)
+- [combination-sum](https://leetcode.cn/problems/combination-sum/)  [**Solution**](backtracking/combination-sum.py)
+- [combination-sum-ii](https://leetcode.cn/problems/combination-sum-ii/)  [**Solution**](backtracking/combination-sum-ii.py)
+- [combination-sum-iii](https://leetcode.cn/problems/combination-sum-iii)  [**Solution**](relative_path) 这题我还没做
+
+[回溯算法最佳实践：括号生成](https://labuladong.github.io/algo/4/29/108/)
+- [generate-parentheses](https://leetcode.cn.com/problems/generate-parentheses/submissions/)  [**Solution**](backtracking/generate-parentheses.py)
+
+
 
 #### section_name
 - [question_name](leetcode_link)  [**Solution**](relative_path)
