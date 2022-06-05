@@ -79,7 +79,7 @@ Rule No.2
 ## 二叉树
 
 #### [二叉树_基操篇](https://labuladong.github.io/algo/2/19/40/) 判断 BST 的合法性、增、删、查。其中「删」和「判断合法性」略微复杂
-- [validate-binary-search-tree]([leetcode_link](https://leetcode.cn/problems/validate-binary-search-tree/))  [**Solution**](Binary_tree/二叉搜索树_基操篇/delete-node-in-a-bst.py)
+- [validate-binary-search-tree](https://leetcode.cn/problems/validate-binary-search-tree/)  [**Solution**](Binary_tree/二叉搜索树_基操篇/delete-node-in-a-bst.py)
 - [delete-node-in-a-bst](https://leetcode.cn/problems/delete-node-in-a-bst/)  [**Solution**](Binary_tree/二叉搜索树_基操篇/delete-node-in-a-bst.py)
 - [search-in-a-binary-search-tree](https://leetcode.cn/problems/search-in-a-binary-search-tree/)  [**Solution**](Binary_tree/二叉搜索树_基操篇/search-in-a-binary-search-tree.py)
 - [insert-into-a-binary-search-tree](https://leetcode.cn/problems/insert-into-a-binary-search-tree/)  [**Solution**](Binary_tree/二叉搜索树_基操篇/insert-into-a-binary-search-tree.py)
