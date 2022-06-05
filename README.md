@@ -149,11 +149,23 @@ Rule No.2
 
 
 
+  
+#### islands
+- [a simple framework demo for island]()  [**Solution**](islands/island_framework.py)
+- [number-of-islands](https://leetcode.cn/problems/number-of-islands/)  [**Solution**](**islands/number-of-islands.py)
+- [number-of-distinct-islands](https://leetcode.cn/problems/number-of-distinct-islands/)  [**Solution**](islands/number-of-distinct-islands.py)
+- [max-area-of-island](https://leetcode.cn/problems/max-area-of-island/)  [**Solution**](islands/max-area-of-island.py)
+- [number-of-enclaves](https://leetcode.cn/problems/number-of-enclaves/)  [**Solution**](islands/number-of-enclaves.py)
+- [number-of-closed-islands](https://leetcode.cn/problems/number-of-closed-islands/)  [**Solution**](islands/number-of-closed-islands.py)
+- [count-sub-islands](https://leetcode.cn/problems/count-sub-islands/)  [**Solution**](islands/count-sub-islands.py)
+
+
+
+
+#### BFS
+
 #### section_name
 - [question_name](leetcode_link)  [**Solution**](relative_path)
-- 
-#### island
-#### BFS
 
 
 ## DP
