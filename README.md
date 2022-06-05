@@ -150,7 +150,7 @@ Rule No.2
 
 
   
-#### islands
+#### [islands](https://labuladong.github.io/algo/4/29/106/) (岛屿 也就是flood fill)
 - a simple framework demo for island  [**Solution**](islands/island_framework.py)
 - [number-of-islands](https://leetcode.cn/problems/number-of-islands/)  [**Solution**](**islands/number-of-islands.py)
 - [number-of-distinct-islands](https://leetcode.cn/problems/number-of-distinct-islands/)  [**Solution**](islands/number-of-distinct-islands.py)
@@ -163,6 +163,11 @@ Rule No.2
 
 
 #### BFS
+- [question_name](leetcode_link)  [**Solution**](relative_path)
+- [question_name](leetcode_link)  [**Solution**](relative_path)
+- [question_name](leetcode_link)  [**Solution**](relative_path)
+- [question_name](leetcode_link)  [**Solution**](relative_path)
+
 
 #### section_name
 - [question_name](leetcode_link)  [**Solution**](relative_path)
