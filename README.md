@@ -151,7 +151,7 @@ Rule No.2
 
   
 #### islands
-- [a simple framework demo for island]()  [**Solution**](islands/island_framework.py)
+- a simple framework demo for island  [**Solution**](islands/island_framework.py)
 - [number-of-islands](https://leetcode.cn/problems/number-of-islands/)  [**Solution**](**islands/number-of-islands.py)
 - [number-of-distinct-islands](https://leetcode.cn/problems/number-of-distinct-islands/)  [**Solution**](islands/number-of-distinct-islands.py)
 - [max-area-of-island](https://leetcode.cn/problems/max-area-of-island/)  [**Solution**](islands/max-area-of-island.py)
