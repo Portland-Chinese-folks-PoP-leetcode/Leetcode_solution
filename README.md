@@ -17,7 +17,7 @@ Rule No.2
 ![output](img/Pulp-Fiction.jpeg)
 
 复习 第一轮()
-# 复习的第一个周期（3天）
+# 复习的第一个周期（3天）实际用时4天
 #### single linked list
 - [merge-k-sorted-lists](https://leetcode.cn/problems/merge-k-sorted-lists/submissions/) [**solution**](linked_list/merge-k-sorted-lists-priorityqueue-version.py)
 - [merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)  [**solution**](linked_list/merge-two-sorted-lists.py)
@@ -73,6 +73,65 @@ Rule No.2
 - [corporate-flight-bookings](https://leetcode.cn/problems/corporate-flight-bookings/)    [**solution**](differenceArray/corporate-flight-bookings.py)
 - [car-pooling](https://leetcode.cn/problems/car-pooling/submissions/)    [**solution**](differenceArray/car-pooling.py)
 
-# 复习的第二个大块
+# 复习的第二个大块 ()
 #### section_name
 - [question_name](leetcode_link)  [**Solution**](relative_path)
+
+##二叉树
+
+#### [二叉树_基操篇](https://labuladong.github.io/algo/2/19/40/) 判断 BST 的合法性、增、删、查。其中「删」和「判断合法性」略微复杂
+- [validate-binary-search-tree]([leetcode_link](https://leetcode.cn/problems/validate-binary-search-tree/))  [**Solution**](Binary_tree/二叉搜索树_基操篇/delete-node-in-a-bst.py)
+- [delete-node-in-a-bst](https://leetcode.cn/problems/delete-node-in-a-bst/)  [**Solution**](Binary_tree/二叉搜索树_基操篇/delete-node-in-a-bst.py)
+- [search-in-a-binary-search-tree](https://leetcode.cn/problems/search-in-a-binary-search-tree/)  [**Solution**](Binary_tree/二叉搜索树_基操篇/search-in-a-binary-search-tree.py)
+- [insert-into-a-binary-search-tree](https://leetcode.cn/problems/insert-into-a-binary-search-tree/)  [**Solution**](Binary_tree/二叉搜索树_基操篇/insert-into-a-binary-search-tree.py)
+
+
+#### [二叉树_构造篇](https://labuladong.github.io/algo/2/19/41/) 
+- [unique-binary-search-trees-ii](https://leetcode.cn/problems/unique-binary-search-trees-ii/)  [**Solution**](Binary_tree/二叉搜索树_构造篇/unique-binary-search-trees-II.py)
+- [unique-binary-search-trees](https://leetcode.cn/problems/unique-binary-search-trees/)  [**Solution**](Binary_tree/二叉搜索树_构造篇/unique-binary-search-trees.py)
+
+#### [二叉树_特性篇](https://labuladong.github.io/algo/2/19/39/) 
+-[kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  [**Solution**](Binary_tree/二叉树_特性_中序/kth-smallest-element-in-a-bst.py)
+-[convert-bst-to-greater-tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)  [**Solution**](Binary_tree/二叉树_特性_中序/convert-bst-to-greater-tree.py)
+-[binary-search-tree-to-greater-sum-tree](https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/)  [**Solution**](relative_path) 这题我还没做
+
+#### [二叉树_思路](https://labuladong.github.io/algo/2/19/34/) 
+-[flatten-binary-tree-to-linked-list](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)  [**Solution**](Binary_tree/二叉树_思路/flatten-binary-tree-to-linked-list.py)
+-[populating-next-right-pointers-in-each-node](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)  [**Solution**](Binary_tree/二叉树_思路/populating-next-right-pointers-in-each-node.py)
+-[invert-binary-tree](https://leetcode.cn/problems/invert-binary-tree/)  [**Solution**](Binary_tree/二叉树_思路/invert-binary-tree.py)
+
+#### [二叉树_构造](https://labuladong.github.io/algo/2/19/35/) 
+-[construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)  [**Solution**](Binary_tree/二叉树_构造/construct-binary-tree-from-preorder-and-inorder-traversal.py)
+-[construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)  [**Solution**](Binary_tree/二叉树_构造/construct-binary-tree-from-inorder-and-postorder-traversal.py)
+-[maximum-binary-tree](https://leetcode.cn/problems/maximum-binary-tree/)  [**Solution**](Binary_tree/二叉树_构造/maximum-binary-tree.py)
+-[construct-binary-tree-from-preorder-and-postorder-traversal](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)  [**Solution**](Binary_tree/二叉树_构造/construct-binary-tree-from-preorder-and-postorder-traversal.py)
+
+#### [二叉树_序列化](https://labuladong.github.io/algo/2/19/36/) 
+-[serialize-and-deserialize-binary-tree](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/)  [**Solution 1**](Binary_tree/二叉树_序列化/serialize-and-deserialize-binary-tree.py)  [**Solution 2**](Binary_tree/二叉树_序列化/BFS-serialize-and-deserialize-binary-tree.py)
+
+
+#### [二叉树_后序](https://labuladong.github.io/algo/2/19/37/) 
+-[find-duplicate-subtrees](https://leetcode.cn/problems/find-duplicate-subtrees/)  [**Solution**](Binary_tree/二叉树_后序/find-duplicate-subtrees.py)
+
+
+#### [二叉树_纲领](https://labuladong.github.io/algo/2/19/33/) 
+
+
+-[question_name](leetcode_link)  [**Solution**](relative_path)
+
+
+-[question_name](leetcode_link)  [**Solution**](relative_path)
+ 
+
+##暴力穷举
+
+#### backtracking回溯
+#### island
+#### BFS
+
+
+##DP
+
+#### 一维
+#### 二维
+#### memorization
