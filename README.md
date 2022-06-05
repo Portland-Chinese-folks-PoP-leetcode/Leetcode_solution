@@ -64,7 +64,7 @@ Rule No.2
 - [4sum](https://leetcode.cn/problems/4sum/)    [**solution**](N-sum/4sum.py)
 
 
-#### 前缀
+#### 前缀和/积 rangeSum。 本质是用一个新数组preSum来存储元数组的累加和或者累加积，以使得算法的时间复杂度打到O(1),when we creating the presum array, the length of row or column is always 1 bigger than the original one 
 - [range-sum-query-immutable](https://leetcode.cn/problems/range-sum-query-immutable/)    [**solution**](rangesum前缀/range-sum-query-immutable.py)
 - [range-sum-query-2d-immutable](https://leetcode.cn/problems/range-sum-query-2d-immutable/)    [**solution**](rangesum前缀/range-sum-query-2d-immutable.py)
 

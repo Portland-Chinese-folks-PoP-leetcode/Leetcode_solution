@@ -1,8 +1,9 @@
+# https://leetcode.cn/problems/range-sum-query-2d-immutable/
 class NumMatrix:
 
     def __init__(self, matrix: List[List[int]]):
-        n = len(matrix)
-        m = len(matrix[0])
+        n = len(matrix)  # n是行
+        m = len(matrix[0])  # m是列
         if m == 0 or n == 0:
             return
         self.presum = [[0 for _ in range(m+1)] for _ in range(n+1)]
