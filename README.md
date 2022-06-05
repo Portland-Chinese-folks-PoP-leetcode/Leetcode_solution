@@ -123,14 +123,14 @@ Rule No.2
 -[question_name](leetcode_link)  [**Solution**](relative_path)
  
 
-##暴力穷举
+## 暴力穷举
 
 #### backtracking回溯
 #### island
 #### BFS
 
 
-##DP
+## DP
 
 #### 一维
 #### 二维
