@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
 
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
@@ -28,5 +31,5 @@ class Solution:
 
 # 为什么会有这种情况下不加入中间的1了呢？ 因为tm回不去了，操
 a = Solution()
-nums = [1, 1, 2]
+nums = [1, 2, 2]
 a.permuteUnique(nums)

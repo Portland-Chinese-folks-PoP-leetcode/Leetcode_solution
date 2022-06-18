@@ -142,7 +142,7 @@ Rule No.2
 - [combinations](https://leetcode.cn/problems/combinations/)  [**Solution**](backtracking/combinations.py)
 - [combination-sum](https://leetcode.cn/problems/combination-sum/)  [**Solution**](backtracking/combination-sum.py)
 - [combination-sum-ii](https://leetcode.cn/problems/combination-sum-ii/)  [**Solution**](backtracking/combination-sum-ii.py)
-- [combination-sum-iii](https://leetcode.cn/problems/combination-sum-iii)  [**Solution**](relative_path) 这题我还没做
+- [combination-sum-iii](https://leetcode.cn/problems/combination-sum-iii)  [**Solution**](backtracking/combination-sum-iii.py) 这题我还没做
 
 [回溯算法最佳实践：括号生成](https://labuladong.github.io/algo/4/29/108/)
 - [generate-parentheses](https://leetcode.cn.com/problems/generate-parentheses/submissions/)  [**Solution**](backtracking/generate-parentheses.py)
