@@ -60,3 +60,10 @@ def backtrack(used, nums):
         used[i] = False
 
 # 无重可复选
+
+
+def backtrack(nums, start):
+    for i in range(0, len(nums)):
+        track.append(i)
+        backtrack(nums, i)
+        track.pop(-1)
