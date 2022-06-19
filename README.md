@@ -127,6 +127,7 @@ Rule No.2
 #### backtracking回溯
 
 [回溯算法解题套路框架](https://labuladong.github.io/algo/4/29/103/)
+- [Template](backtracking/backtrack_template.py)
 - [n-queens](https://leetcode.cn/problems/n-queens/)  [**Solution**](backtracking/n-queens.py)
 - [permutations](https://leetcode.cn/problems/permutations/)  [**Solution**](backtracking/permutations.py) 用了printindent的操作(这个套路很骚，适用于所有递归)
   
