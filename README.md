@@ -136,13 +136,13 @@ Rule No.2
 
 [回溯算法秒杀所有排列/组合/子集问题](https://labuladong.github.io/algo/4/29/105/)
 
-- [permutations](https://leetcode.cn/problems/permutations/)  [**Solution**](backtracking/permutations.py) 用了printindent的操作(这个套路很骚，适用于所有递归)
-- [subsets](https://leetcode.cn/problems/subsets/)  [**Solution**](backtracking/subsets.py)
-- [subsets-ii](https://leetcode.cn/problems/subsets-ii/)  [**Solution**](backtracking/subsets-ii.py)
-- [permutations-ii](https://leetcode.cn/problems/permutations-ii/)  [**Solution**](backtracking/permutations-ii.py)
-- [combinations](https://leetcode.cn/problems/combinations/)  [**Solution**](backtracking/combinations.py)
-- [combination-sum](https://leetcode.cn/problems/combination-sum/)  [**Solution**](backtracking/combination-sum.py)
-- [combination-sum-ii](https://leetcode.cn/problems/combination-sum-ii/)  [**Solution**](backtracking/combination-sum-ii.py)
+- [permutations](https://leetcode.cn/problems/permutations/)  [**Solution**](backtracking/permutations.py) 无重复 不可复选
+- [subsets](https://leetcode.cn/problems/subsets/)  [**Solution**](backtracking/subsets.py) 无重复 不可复选
+- [subsets-ii](https://leetcode.cn/problems/subsets-ii/)  [**Solution**](backtracking/subsets-ii.py) 有重复 不可复选
+- [permutations-ii](https://leetcode.cn/problems/permutations-ii/)  [**Solution**](backtracking/permutations-ii.py) 有重复 不可复选
+- [combinations](https://leetcode.cn/problems/combinations/)  [**Solution**](backtracking/combinations.py) 无重复 不可复选
+- [combination-sum](https://leetcode.cn/problems/combination-sum/)  [**Solution**](backtracking/combination-sum.py) 无重复 可复选
+- [combination-sum-ii](https://leetcode.cn/problems/combination-sum-ii/)  [**Solution**](backtracking/combination-sum-ii.py) 可重复 不可复选
 - [combination-sum-iii](https://leetcode.cn/problems/combination-sum-iii)  [**Solution**](backtracking/combination-sum-iii.py) 这题我还没做
 
 [回溯算法最佳实践：括号生成](https://labuladong.github.io/algo/4/29/108/)
@@ -153,7 +153,7 @@ Rule No.2
   
 #### [islands](https://labuladong.github.io/algo/4/29/106/) (岛屿 也就是flood fill)
 - a simple framework demo for island  [**Solution**](islands/island_framework.py)
-- [number-of-islands](https://leetcode.cn/problems/number-of-islands/)  [**Solution**](**islands/number-of-islands.py)
+- [number-of-islands](https://leetcode.cn/problems/number-of-islands/)  [**Solution**](islands/number-of-islands.py)
 - [number-of-distinct-islands](https://leetcode.cn/problems/number-of-distinct-islands/)  [**Solution**](islands/number-of-distinct-islands.py)
 - [max-area-of-island](https://leetcode.cn/problems/max-area-of-island/)  [**Solution**](islands/max-area-of-island.py)
 - [number-of-enclaves](https://leetcode.cn/problems/number-of-enclaves/)  [**Solution**](islands/number-of-enclaves.py)
