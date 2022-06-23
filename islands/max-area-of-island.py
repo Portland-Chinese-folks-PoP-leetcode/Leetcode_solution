@@ -29,3 +29,24 @@ a = Solution()
 grid = [[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0], [0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0], [
     0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0]]
 a.maxAreaOfIsland(grid)
+
+
+
+#### 下面是第二次做这个题目
+class Solution:
+    def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
+        def dfs(grid, i, j):
+            if i >= m or j >= n or i < 0 or j < 0:  # 这一行一定要在 grid[i][j]==0 的前面
+                return 0
+            if grid[i][j] == 0:
+                return 0
+            grid[i][j] = 0
+            return dfs(grid, i-1, j)+dfs(grid, i+1, j)+dfs(grid, i, j-1)+dfs(grid, i, j+1)+1
+        m = len(grid)
+        n = len(grid[0])
+        res = 0
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == 1:
+                    res = max(res, dfs(grid, i, j))
+        return res
