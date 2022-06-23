@@ -163,11 +163,11 @@ Rule No.2
 
 
 
-#### BFS
-- [question_name](leetcode_link)  [**Solution**](relative_path)
-- [question_name](leetcode_link)  [**Solution**](relative_path)
-- [question_name](leetcode_link)  [**Solution**](relative_path)
-- [question_name](leetcode_link)  [**Solution**](relative_path)
+#### [BFS](https://labuladong.github.io/algo/4/29/109/)
+- [minimum-depth-of-binary-tree](https://leetcode.cn/problems/minimum-depth-of-binary-tree/)  [**Solution**](BFS/minimum-depth-of-binary-tree.py)
+- [open-the-lock](https://leetcode.cn/problems/open-the-lock/)  [**Solution**](BFS/open-the-lock.py)
+- [sliding-puzzle](https://leetcode.cn/problems/sliding-puzzle/)  [**Solution**](BFS/sliding-puzzle.py)
+
 
 
 #### section_name
