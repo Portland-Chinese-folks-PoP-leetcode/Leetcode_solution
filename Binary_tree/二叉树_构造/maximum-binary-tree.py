@@ -10,18 +10,36 @@ class Solution(object):
         :type nums: List[int]
         :rtype: TreeNode
         """
-        def build(nums):
-            # if low > high:
-            #     return None
-            if len(nums) == 0:
+        def build(nums, lo, hi):
+            if lo > hi:
                 return None
-            # 这是使用了前序
-            max_val = max(nums)
-            index = nums.index(max_val)
-            root = TreeNode(max_val)
-
-            root.left = build(nums[0:index])
-            root.right = build(nums[index+1:])
+            root_val = max(nums[lo:hi+1])
+            index = nums.index(root_val)
+            root = TreeNode(root_val)
+            root.left = build(nums, lo, index-1)
+            root.right = build(nums, index+1, hi)
             return root
+        return build(nums, 0, len(nums)-1)
 
-        return build(nums)
+
+"""当前 nums 中的最大值就是根节点，然后根据索引递归调用左右数组构造左右子树即可。
+"""
+
+# 第二次解法
+
+
+class Solution(object):
+    def constructMaximumBinaryTree(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: TreeNode
+        """
+        if len(nums) == 0:
+            return None
+        root = TreeNode(max(nums))
+        root.left = self.constructMaximumBinaryTree(
+            nums[:nums.index(max(nums))])
+        root.right = self.constructMaximumBinaryTree(
+            nums[nums.index(max(nums))+1:])
+
+        return root

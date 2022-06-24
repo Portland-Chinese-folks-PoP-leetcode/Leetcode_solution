@@ -96,14 +96,16 @@ Rule No.2
 
 #### [二叉树_思路](https://labuladong.github.io/algo/2/19/34/) 
 - [flatten-binary-tree-to-linked-list](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)  [**Solution**](Binary_tree/二叉树_思路/flatten-binary-tree-to-linked-list.py)
-- [populating-next-right-pointers-in-each-node](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)  [**Solution**](Binary_tree/二叉树_思路/populating-next-right-pointers-in-each-node.py)
-- [invert-binary-tree](https://leetcode.cn/problems/invert-binary-tree/)  [**Solution**](Binary_tree/二叉树_思路/invert-binary-tree.py)
+- [populating-next-right-pointers-in-each-node](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)  [**Solution**](Binary_tree/二叉树_思路/populating-next-right-pointers-in-each-node.py) 这题用到完美二叉树，用traverse 但是参数定义不一样，很有意思。同样执行转换的位置在前序或者后序都不影响
+- [invert-binary-tree](https://leetcode.cn/problems/invert-binary-tree/)  [**Solution**](Binary_tree/二叉树_思路/invert-binary-tree.py) 这题的左右子树转换的代码位置在后序或者前序 并不影响结果（利用第一种遍历思路）
 
 #### [二叉树_构造](https://labuladong.github.io/algo/2/19/35/) 
-- [construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)  [**Solution**](Binary_tree/二叉树_构造/construct-binary-tree-from-preorder-and-inorder-traversal.py)
-- [construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)  [**Solution**](Binary_tree/二叉树_构造/construct-binary-tree-from-inorder-and-postorder-traversal.py)
-- [maximum-binary-tree](https://leetcode.cn/problems/maximum-binary-tree/)  [**Solution**](Binary_tree/二叉树_构造/maximum-binary-tree.py)
-- [construct-binary-tree-from-preorder-and-postorder-traversal](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)  [**Solution**](Binary_tree/二叉树_构造/construct-binary-tree-from-preorder-and-postorder-traversal.py)
+- [construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)  [**Solution**](Binary_tree/二叉树_构造/construct-binary-tree-from-preorder-and-inorder-traversal.py) 第二种思路 找到中序的index，构造build函数，参数很多，第二次传参的中序 start 和end 只和index 有关 。一定要注意，传入的参数是index！
+- [construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)  [**Solution**](Binary_tree/二叉树_构造/construct-binary-tree-from-inorder-and-postorder-traversal.py) 和上一题的思路一样
+- [maximum-binary-tree](https://leetcode.cn/problems/maximum-binary-tree/)  [**Solution**](Binary_tree/二叉树_构造/maximum-binary-tree.py) 定义build函数 def build(nums,lo,hi):
+- [construct-binary-tree-from-preorder-and-postorder-traversal](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)  [**Solution**](Binary_tree/二叉树_构造/construct-binary-tree-from-preorder-and-postorder-traversal.py)  这一题可以有多种答案，利用 prestart的后一个元素，所以需要多一个判断当prestart=preend的时候 直接return TreeNode(preorder[prestart])
+- [construct-binary-search-tree-from-preorder-traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal) [**Solution**](Binary_tree/二叉树_构造/construct-binary-search-tree-from-preorder-traversal.py)  build(preorder,start,end) 用一个while循环找到第一个比 prestart大的元素的index
+
 
 #### [二叉树_序列化](https://labuladong.github.io/algo/2/19/36/) 
 - [serialize-and-deserialize-binary-tree](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/)  [**Solution 1**](Binary_tree/二叉树_序列化/serialize-and-deserialize-binary-tree.py)  [**Solution 2**](Binary_tree/二叉树_序列化/BFS-serialize-and-deserialize-binary-tree.py)
@@ -153,12 +155,12 @@ Rule No.2
   
 #### [islands](https://labuladong.github.io/algo/4/29/106/) (岛屿 也就是flood fill)
 - a simple framework demo for island  [**Solution**](islands/island_framework.py)
-- [number-of-islands](https://leetcode.cn/problems/number-of-islands/)  [**Solution**](islands/number-of-islands.py)
-- [number-of-distinct-islands](https://leetcode.cn/problems/number-of-distinct-islands/)  [**Solution**](islands/number-of-distinct-islands.py)
+- [number-of-islands](https://leetcode.cn/problems/number-of-islands/)  [**Solution**](islands/number-of-islands.py) ### 最简单的 直接淹
 - [max-area-of-island](https://leetcode.cn/problems/max-area-of-island/)  [**Solution**](islands/max-area-of-island.py)
 - [number-of-enclaves](https://leetcode.cn/problems/number-of-enclaves/)  [**Solution**](islands/number-of-enclaves.py)
 - [number-of-closed-islands](https://leetcode.cn/problems/number-of-closed-islands/)  [**Solution**](islands/number-of-closed-islands.py)
-- [count-sub-islands](https://leetcode.cn/problems/count-sub-islands/)  [**Solution**](islands/count-sub-islands.py)
+- [count-sub-islands](https://leetcode.cn/problems/count-sub-islands/)  [**Solution**](islands/count-sub-islands.py)  
+- [number-of-distinct-islands](https://leetcode.cn/problems/number-of-distinct-islands/)  [**Solution**](islands/number-of-distinct-islands.py)
 
 
 
