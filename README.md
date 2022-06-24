@@ -95,11 +95,11 @@ Rule No.2
 - [binary-search-tree-to-greater-sum-tree](https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/)  [**Solution**](relative_path) 这题我还没做
 
 #### [二叉树_思路](https://labuladong.github.io/algo/2/19/34/) 
-- [flatten-binary-tree-to-linked-list](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)  [**Solution**](Binary_tree/二叉树_思路/flatten-binary-tree-to-linked-list.py)
-- [populating-next-right-pointers-in-each-node](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)  [**Solution**](Binary_tree/二叉树_思路/populating-next-right-pointers-in-each-node.py) 这题用到完美二叉树，用traverse 但是参数定义不一样，很有意思。同样执行转换的位置在前序或者后序都不影响
-- [invert-binary-tree](https://leetcode.cn/problems/invert-binary-tree/)  [**Solution**](Binary_tree/二叉树_思路/invert-binary-tree.py) 这题的左右子树转换的代码位置在后序或者前序 并不影响结果（利用第一种遍历思路）
+- [flatten-binary-tree-to-linked-list](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)  [**Solution**](Binary_tree/二叉树_思路/flatten-binary-tree-to-linked-list.py) (分解问题)1、将 root 的左子树和右子树拉平。 2、将 root 的右子树接到左子树下方，然后将整个左子树作为右子树（虽然没有return value 但仍然属于分解问题）
+- [populating-next-right-pointers-in-each-node](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)  [**Solution**](Binary_tree/二叉树_思路/populating-next-right-pointers-in-each-node.py) （遍历）这题用到完美二叉树，用traverse 但是参数定义不一样，很有意思。同样执行转换的位置在前序或者后序都不影响
+- [invert-binary-tree](https://leetcode.cn/problems/invert-binary-tree/)  [**Solution**](Binary_tree/二叉树_思路/invert-binary-tree.py) （遍历）这题的左右子树转换的代码位置在后序或者前序 并不影响结果（利用第一种遍历思路）
 
-#### [二叉树_构造](https://labuladong.github.io/algo/2/19/35/) 
+#### [二叉树_构造](https://labuladong.github.io/algo/2/19/35/)  基本构造都用分解问题
 - [construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)  [**Solution**](Binary_tree/二叉树_构造/construct-binary-tree-from-preorder-and-inorder-traversal.py) 第二种思路 找到中序的index，构造build函数，参数很多，第二次传参的中序 start 和end 只和index 有关 。一定要注意，传入的参数是index！
 - [construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)  [**Solution**](Binary_tree/二叉树_构造/construct-binary-tree-from-inorder-and-postorder-traversal.py) 和上一题的思路一样
 - [maximum-binary-tree](https://leetcode.cn/problems/maximum-binary-tree/)  [**Solution**](Binary_tree/二叉树_构造/maximum-binary-tree.py) 定义build函数 def build(nums,lo,hi):
