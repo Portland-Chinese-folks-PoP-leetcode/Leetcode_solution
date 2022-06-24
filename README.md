@@ -109,7 +109,8 @@ Rule No.2
 
 #### [二叉树_序列化](https://labuladong.github.io/algo/2/19/36/) 
 - [serialize-and-deserialize-binary-tree](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/)  [**Solution 1**](Binary_tree/二叉树_序列化/serialize-and-deserialize-binary-tree.py)  [**Solution 2**](Binary_tree/二叉树_序列化/BFS-serialize-and-deserialize-binary-tree.py)
-
+每一个非空节点都会对应两个子节点，那么反序列化的思路也是用队列进行层级遍历，同时用索引 i 记录对应子节点的位置：
+![output](img/bfs序列化二叉树.png)
 
 #### [二叉树_后序](https://labuladong.github.io/algo/2/19/37/) 
 - [find-duplicate-subtrees](https://leetcode.cn/problems/find-duplicate-subtrees/)  [**Solution**](Binary_tree/二叉树_后序/find-duplicate-subtrees.py)

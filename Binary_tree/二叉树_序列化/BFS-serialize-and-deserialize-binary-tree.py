@@ -8,7 +8,7 @@
 class Codec:
     def serialize(self, root):
         """Encodes a tree to a single string.
-        
+
         :type root: TreeNode
         :rtype: str
         """
@@ -19,20 +19,22 @@ class Codec:
         string = ''
         while len(q) > 0:
             current = q.pop(0)
+
             if current is not None:
                 string = string+str(current.val)+','
             else:
                 string = string+str(current)+','
-            # print(string)
             if current == None:
                 continue
+            # print(string)
+
             q.append(current.left)
             q.append(current.right)
         return string
 
     def deserialize(self, data):
         """Decodes your encoded data to tree.
-        
+
         :type data: str
         :rtype: TreeNode
         """
@@ -45,6 +47,8 @@ class Codec:
         i = 0
         while len(q) > 0:
             parent = q.pop(0)
+            
+            # 开始build cur 的左右子树
             i = i+1
             left = data_list[i]
             if left != 'None':
