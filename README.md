@@ -118,10 +118,9 @@ Rule No.2
 #### [二叉树_纲领](https://labuladong.github.io/algo/2/19/33/) 
 
 
--[question_name](leetcode_link)  [**Solution**](relative_path)
-
-
--[question_name](leetcode_link)  [**Solution**](relative_path)
+-[binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)  [**Solution**](Binary_tree/二叉树_纲领/binary-tree-preorder-traversal.py) 
+-[diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree/)  [**Solution**](Binary_tree/二叉树_纲领/diameter-of-binary-tree.py) 一个root的 diameter 是左边最深+右边最深 需要在class里定义一个diameter
+-[maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  [**Solution**](Binary_tree/二叉树_纲领/maximum-depth-of-binary-tree.py) 找最深 在后序的位置用max，尾递归
  
 
 ## 暴力穷举
