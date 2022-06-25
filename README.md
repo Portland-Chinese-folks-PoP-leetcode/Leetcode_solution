@@ -76,7 +76,7 @@ Rule No.2
 # 复习的第二轮 (费城回来以后)
 
 
-## 二叉树
+## 二叉搜索树（BST）
 
 #### [二叉树_基操篇](https://labuladong.github.io/algo/2/19/40/) 判断 BST 的合法性、增、删、查。其中「删」和「判断合法性」略微复杂
 - [validate-binary-search-tree](https://leetcode.cn/problems/validate-binary-search-tree/)  [**Solution**](Binary_tree/二叉搜索树_基操篇/delete-node-in-a-bst.py)
@@ -94,6 +94,15 @@ Rule No.2
 - [convert-bst-to-greater-tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)  [**Solution**](Binary_tree/二叉树_特性_中序/convert-bst-to-greater-tree.py)
 - [binary-search-tree-to-greater-sum-tree](https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/)  [**Solution**](relative_path) 这题我还没做
 
+#二叉树
+
+
+#### [二叉树_纲领](https://labuladong.github.io/algo/2/19/33/) 
+- [binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)  [**Solution**](Binary_tree/二叉树_纲领/binary-tree-preorder-traversal.py) 
+- [diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree/)  [**Solution**](Binary_tree/二叉树_纲领/diameter-of-binary-tree.py) 一个root的 diameter 是左边最深+右边最深 需要在class里定义一个diameter
+- [maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  [**Solution**](Binary_tree/二叉树_纲领/maximum-depth-of-binary-tree.py) 找最深 在后序的位置用max，尾递归
+
+
 #### [二叉树_思路](https://labuladong.github.io/algo/2/19/34/) 
 - [flatten-binary-tree-to-linked-list](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)  [**Solution**](Binary_tree/二叉树_思路/flatten-binary-tree-to-linked-list.py) (分解问题)1、将 root 的左子树和右子树拉平。 2、将 root 的右子树接到左子树下方，然后将整个左子树作为右子树（虽然没有return value 但仍然属于分解问题）
 - [populating-next-right-pointers-in-each-node](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)  [**Solution**](Binary_tree/二叉树_思路/populating-next-right-pointers-in-each-node.py) （遍历）这题用到完美二叉树，用traverse 但是参数定义不一样，很有意思。同样执行转换的位置在前序或者后序都不影响
@@ -108,7 +117,8 @@ Rule No.2
 
 
 #### [二叉树_序列化](https://labuladong.github.io/algo/2/19/36/) 
-- [serialize-and-deserialize-binary-tree](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/)  [**Solution 1**](Binary_tree/二叉树_序列化/serialize-and-deserialize-binary-tree.py)  [**Solution 2**](Binary_tree/二叉树_序列化/BFS-serialize-and-deserialize-binary-tree.py)
+- [serialize-and-deserialize-binary-tree](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/)  [**Solution 1**](Binary_tree/二叉树_序列化/serialize-and-deserialize-binary-tree.py)  递归解法绝对是 后序的大妙用
+- [**Solution 2**](Binary_tree/二叉树_序列化/BFS-serialize-and-deserialize-binary-tree.py) 
 每一个非空节点都会对应两个子节点，那么反序列化的思路也是用队列进行层级遍历，同时用索引 i 记录对应子节点的位置：
 ![output](img/bfs序列化二叉树.png)
 
@@ -116,12 +126,7 @@ Rule No.2
 - [find-duplicate-subtrees](https://leetcode.cn/problems/find-duplicate-subtrees/)  [**Solution**](Binary_tree/二叉树_后序/find-duplicate-subtrees.py)
 
 
-#### [二叉树_纲领](https://labuladong.github.io/algo/2/19/33/) 
 
-
--[binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)  [**Solution**](Binary_tree/二叉树_纲领/binary-tree-preorder-traversal.py) 
--[diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree/)  [**Solution**](Binary_tree/二叉树_纲领/diameter-of-binary-tree.py) 一个root的 diameter 是左边最深+右边最深 需要在class里定义一个diameter
--[maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  [**Solution**](Binary_tree/二叉树_纲领/maximum-depth-of-binary-tree.py) 找最深 在后序的位置用max，尾递归
  
 
 ## 暴力穷举
