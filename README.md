@@ -77,9 +77,17 @@ Rule No.2
 
 
 ## 二叉搜索树（BST）
+对于 BST 的每一个节点 node，左子树节点的值都比 node 的值要小，右子树节点的值都比 node 的值大。
+对于 BST 的每一个节点 node，它的左侧子树和右侧子树都是 BST。
+BST 中序遍历就是升序排序结果」这个性质，每次寻找第 k 小的元素都要中序遍历一次，最坏的时间复杂度是 O(N)
+
+#### [二叉树_特性篇](https://labuladong.github.io/algo/2/19/39/) 下面三题都是中序
+- [kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  [**Solution**](Binary_tree/二叉搜索树_特性_中序/convert-bst-to-greater-tree.py)
+- [convert-bst-to-greater-tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)  [**Solution**](Binary_tree/二叉树_特性_中序/convert-bst-to-greater-tree.py)
+- [binary-search-tree-to-greater-sum-tree](https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/)  [**Solution**](relative_path) 这题我还没做
 
 #### [二叉树_基操篇](https://labuladong.github.io/algo/2/19/40/) 判断 BST 的合法性、增、删、查。其中「删」和「判断合法性」略微复杂
-- [validate-binary-search-tree](https://leetcode.cn/problems/validate-binary-search-tree/)  [**Solution**](Binary_tree/二叉搜索树_基操篇/delete-node-in-a-bst.py)
+- [validate-binary-search-tree](https://leetcode.cn/problems/validate-binary-search-tree/)  [**Solution**](Binary_tree/二叉搜索树_基操篇/validate-binary-search-tree.py)
 - [delete-node-in-a-bst](https://leetcode.cn/problems/delete-node-in-a-bst/)  [**Solution**](Binary_tree/二叉搜索树_基操篇/delete-node-in-a-bst.py)
 - [search-in-a-binary-search-tree](https://leetcode.cn/problems/search-in-a-binary-search-tree/)  [**Solution**](Binary_tree/二叉搜索树_基操篇/search-in-a-binary-search-tree.py)
 - [insert-into-a-binary-search-tree](https://leetcode.cn/problems/insert-into-a-binary-search-tree/)  [**Solution**](Binary_tree/二叉搜索树_基操篇/insert-into-a-binary-search-tree.py)
@@ -89,12 +97,9 @@ Rule No.2
 - [unique-binary-search-trees-ii](https://leetcode.cn/problems/unique-binary-search-trees-ii/)  [**Solution**](Binary_tree/二叉搜索树_构造篇/unique-binary-search-trees-II.py)
 - [unique-binary-search-trees](https://leetcode.cn/problems/unique-binary-search-trees/)  [**Solution**](Binary_tree/二叉搜索树_构造篇/unique-binary-search-trees.py)
 
-#### [二叉树_特性篇](https://labuladong.github.io/algo/2/19/39/) 
-- [kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  [**Solution**](Binary_tree/二叉树_特性_中序/kth-smallest-element-in-a-bst.py)
-- [convert-bst-to-greater-tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)  [**Solution**](Binary_tree/二叉树_特性_中序/convert-bst-to-greater-tree.py)
-- [binary-search-tree-to-greater-sum-tree](https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/)  [**Solution**](relative_path) 这题我还没做
 
-#二叉树
+
+# 二叉树
 
 
 #### [二叉树_纲领](https://labuladong.github.io/algo/2/19/33/) 
