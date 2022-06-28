@@ -95,7 +95,8 @@ Rule No.2
 
 #### [二叉搜索树_构造篇](https://labuladong.github.io/algo/2/19/41/) 
 - [unique-binary-search-trees-ii](https://leetcode.cn/problems/unique-binary-search-trees-ii/)  [**Solution**](Binary_tree/二叉搜索树_构造篇/unique-binary-search-trees-II.py)
-- [unique-binary-search-trees](https://leetcode.cn/problems/unique-binary-search-trees/)  [**Solution**](Binary_tree/二叉搜索树_构造篇/unique-binary-search-trees.py)
+- 1穷举 root 节点的所有可能。2、递归构造出左右子树的所有合法 BST。 3、给 root 节点穷举所有左右子树的组合。
+- [unique-binary-search-trees](https://leetcode.cn/problems/unique-binary-search-trees/)  [**Solution**](Binary_tree/二叉搜索树_构造篇/unique-binary-search-trees.py)  这一题的本质是特殊的动态规划 memorization（一开始我以为是回溯，但不是）
 
 
 
