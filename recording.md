@@ -104,3 +104,10 @@
 - https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 - https: // leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/submissions/
 
+June 28
+https://leetcode.com/problems/add-two-numbers/submissions/
+https://leetcode.cn/problems/fibonacci-number
+https://leetcode.com/problems/coin-change/submissions
+https://leetcode.cn/problems/longest-increasing-subsequence
+https://leetcode.cn/problems/russian-doll-envelopes
+https://leetcode.cn/problems/maximum-subarray

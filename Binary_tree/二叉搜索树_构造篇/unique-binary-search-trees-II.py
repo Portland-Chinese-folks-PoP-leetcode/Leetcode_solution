@@ -6,8 +6,6 @@
 #         self.right = right
 # binary search tree的构造 还挺难的
 class Solution:
-    res = []
-
     def generateTrees(self, n: int) -> List[TreeNode]:
         def build(low, high):
             res = []

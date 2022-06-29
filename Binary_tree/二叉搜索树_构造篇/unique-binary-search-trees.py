@@ -5,7 +5,7 @@ class Solution:
         def count(low, high):
             if low > high:
                 return 1
-            res = 0
+            res = 0  # 这个res在nest function count 里面的原因就是 每一层（固定node数量的bst）都有自己的数量的树形状的排列，如果这个res在外面就变成了 子集的数量
             if (low, high) in self.memo:
                 return self.memo[(low, high)]
 

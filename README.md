@@ -182,13 +182,20 @@ Rule No.2
 - [open-the-lock](https://leetcode.cn/problems/open-the-lock/)  [**Solution**](BFS/open-the-lock.py)
 - [sliding-puzzle](https://leetcode.cn/problems/sliding-puzzle/)  [**Solution**](BFS/sliding-puzzle.py)
 
-
+#### Graph
+- [adjacency list depth first search template](Graph图/graph_template.py) 简单邻接表图深度遍历的python 实现模板
+- [all-paths-from-source-to-target](https://leetcode.cn/problems/all-paths-from-source-to-target/submissions/) [**solution**](Graph图/all-paths-from-source-to-target.py) 这一题是邻接表
 
 #### section_name
 - [question_name](leetcode_link)  [**Solution**](relative_path)
 
 
 ## DP
+- [fibonacci-number](https://leetcode.cn/problems/fibonacci-number/)  [**Solution**](DP/fibonacci-number.py) 
+- [coin-change](https://leetcode.com/problems/coin-change/submissions/)  [**Solution memo**](DP/coin_change_memo.py) [**Solution table**](DP/coin_change_table.py)
+- [longest-increasing-subsequence](https://leetcode.cn/problems/longest-increasing-subsequence/)  [**Solution**](DP/lengthOfLIS.py) 子序列问题，注意子序列 并不是连续的
+- [russian-doll-envelopes](https://leetcode.cn/problems/russian-doll-envelopes/)  [**Solution**](DP/russian-doll-envelopes.py) 这个的思路是先用lambda排序 在进行LIS
+- [maximum-subarray](https://leetcode.cn/problems/maximum-subarray/)  [**Solution**](DP/maximum-subarray.py) 这个是subset 区别这个和subsequence
 
 #### 一维
 #### 二维
