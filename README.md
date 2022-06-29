@@ -193,7 +193,8 @@ Rule No.2
 ## DP
 - [fibonacci-number](https://leetcode.cn/problems/fibonacci-number/)  [**Solution**](DP/fibonacci-number.py) 
 - [coin-change](https://leetcode.com/problems/coin-change/submissions/)  [**Solution memo**](DP/coin_change_memo.py) [**Solution table**](DP/coin_change_table.py)
-- [longest-increasing-subsequence](https://leetcode.cn/problems/longest-increasing-subsequence/)  [**Solution**](DP/lengthOfLIS.py) 子序列问题，注意子序列 并不是连续的
+- [longest-increasing-subsequence](https://leetcode.cn/problems/longest-increasing-subsequence/)  [**Solution**](DP/lengthOfLIS.py) 子序列问题，注意子序列 并不是连续的         for i in range(1,len(dp)):
+            for j in range(0,i): 两个for循环 复杂度是n方
 - [russian-doll-envelopes](https://leetcode.cn/problems/russian-doll-envelopes/)  [**Solution**](DP/russian-doll-envelopes.py) 这个的思路是先用lambda排序 在进行LIS
 - [maximum-subarray](https://leetcode.cn/problems/maximum-subarray/)  [**Solution**](DP/maximum-subarray.py) 这个是subset 区别这个和subsequence
 

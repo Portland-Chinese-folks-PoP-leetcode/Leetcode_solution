@@ -8,7 +8,7 @@ def coinChange(coins, amount):
     # 反之亦然
     dp = [amount+1]*(amount+1)
     dp[0] = 0
-    for i in range(0, len(dp)):
+    for i in range(1, len(dp)):
         for coin in coins:
             if i - coin < 0:
                 continue

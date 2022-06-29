@@ -104,7 +104,19 @@
 - https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 - https: // leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/submissions/
 
+June 27 复习 二叉搜索树
+https://leetcode.com/problems/kth-smallest-element-in-a-bst
+https://leetcode.com/problems/convert-bst-to-greater-tree
+https://leetcode.cn/problems/validate-binary-search-tree
+https://leetcode.cn/problems/delete-node-in-a-bst
+https://leetcode.cn/problems/search-in-a-binary-search-tree
+https://leetcode.cn/problems/insert-into-a-binary-search-tree
+https://leetcode.cn/problems/unique-binary-search-trees-ii
+https://leetcode.cn/problems/unique-binary-search-trees
+看了一下图
+
 June 28
+复习DP
 https://leetcode.com/problems/add-two-numbers/submissions/
 https://leetcode.cn/problems/fibonacci-number
 https://leetcode.com/problems/coin-change/submissions
