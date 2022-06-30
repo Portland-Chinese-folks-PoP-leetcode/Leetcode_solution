@@ -1,9 +1,6 @@
 from collections import deque
 d = deque()
-d.append('a')
-d.append('b')
-d.appendleft('x')
-print(d)
-d.popleft()
-d.pop()
-print(d)
+print(dir(d))
+
+
+print(d.__getitem__(-1))

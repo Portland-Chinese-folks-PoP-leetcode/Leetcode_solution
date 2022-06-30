@@ -123,3 +123,24 @@ https://leetcode.com/problems/coin-change/submissions
 https://leetcode.cn/problems/longest-increasing-subsequence
 https://leetcode.cn/problems/russian-doll-envelopes
 https://leetcode.cn/problems/maximum-subarray
+
+June 29
+新做
+https://leetcode.cn/problems/lru-cache/submissions/
+
+https://leetcode.cn/problems/next-greater-element-i/ 单调栈
+https://leetcode.cn/problems/reorder-list/ 栈 处理链表节点 。我的思路是使用了dummy节点 创建新的list 我还是喜欢我的方法，容易看懂
+下面三个很相似
+https://leetcode.cn/problems/valid-parentheses/ 栈处理 括号 栈是一种先进后出的数据结构，处理括号问题的时候尤其有用。遇到左括号就入栈，遇到右括号就去栈中寻找最近的左括号，看是否匹配。
+https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid/ 栈处理 括号
+https://leetcode.cn/problems/evaluate-reverse-polish-notation/ 栈
+
+June 30
+https://leetcode.cn/problems/implement-queue-using-stacks/
+https: // leetcode.cn/problems/implement-stack-using-queues/
+https://leetcode.cn/problems/min-stack/
+
+https://leetcode.cn/problems/design-hit-counter/
+https://leetcode.cn/problems/number-of-recent-calls/submissions/
+https://leetcode.cn/problems/moving-average-from-data-stream/
+https://leetcode.cn/problems/design-circular-queue/submissions/
