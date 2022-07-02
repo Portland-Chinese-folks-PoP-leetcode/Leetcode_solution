@@ -137,9 +137,21 @@ https://leetcode.cn/problems/evaluate-reverse-polish-notation/ 栈
 
 June 30
 https://leetcode.cn/problems/implement-queue-using-stacks/
+需要两个stack。    
+peek 查看队头的元素怎么办呢？按道理队头元素应该是 1，
+    但是在 s1 中 1 被压在栈底，现在就要轮到 s2 起到一个中转的作用了：
+    当 s2 为空时，可以把 s1 的所有元素取出再添加进 s2，这时候 s2 中元素就是先进先出顺序了。
 https: // leetcode.cn/problems/implement-stack-using-queues/
+- 一个queue 就行 需要一个 记录栈顶元素(也就队尾元素) push API，直接将元素加入队列，同时记录队尾元素，因为队尾元素相当于栈顶元素，如果要 top 查看栈顶元素的话可以直接返回：
+- 底层数据结构是先进先出的队列，每次 pop 只能从队头取元素；但是栈是后进先出，也就是说 pop API 要从队尾取元素.解决方法简单粗暴，把队列前面的都取出来再加入队尾，让之前的队尾元素排到队头，这样就可以取出了.原来的队尾元素被提到队头并删除了，但是 top_elem 变量没有更新.等到在新的队尾元素到对头的时候停止while循环，赋值新的top_element。然后再继续append
 https://leetcode.cn/problems/min-stack/
-
+利用两个栈
+```python
+    def __init__(self):
+        self.stk = deque()
+        self.minstk = deque()  # 定义很特别从某元素到栈底的最小元素
+```
+下面都是queue的题目
 https://leetcode.cn/problems/design-hit-counter/
 https://leetcode.cn/problems/number-of-recent-calls/submissions/
 https://leetcode.cn/problems/moving-average-from-data-stream/
