@@ -156,3 +156,25 @@ https://leetcode.cn/problems/design-hit-counter/
 https://leetcode.cn/problems/number-of-recent-calls/submissions/
 https://leetcode.cn/problems/moving-average-from-data-stream/
 https://leetcode.cn/problems/design-circular-queue/submissions/
+
+July 1st
+https://leetcode.cn/problems/binary-tree-inorder-traversal/
+https://leetcode.cn/problems/binary-tree-postorder-traversal/
+https://leetcode.cn/problems/binary-search-tree-iterator/
+https://leetcode.cn/problems/binary-tree-level-order-traversal/
+https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/
+https://leetcode.cn/problems/binary-tree-level-order-traversal-ii/
+
+July 2st
+https://leetcode.cn/problems/recover-binary-search-tree
+https://leetcode.cn/problems/kth-smallest-element-in-a-bst/
+https://leetcode.cn/problems/inorder-successor-in-bst/
+https://leetcode.cn/problems/closest-binary-search-tree-value-ii/
+https://leetcode.cn/problems/binary-tree-paths/
+https://leetcode.cn/problems/closest-binary-search-tree-value/
+https://leetcode.cn/problems/binary-tree-right-side-view/
+https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/
+https://leetcode.cn/problems/convert-sorted-list-to-binary-search-tree/
+递归
+https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/
+https://leetcode.cn/problems/binary-tree-maximum-path-sum/ 这题特别好
