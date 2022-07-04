@@ -178,3 +178,17 @@ https://leetcode.cn/problems/convert-sorted-list-to-binary-search-tree/
 递归
 https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/
 https://leetcode.cn/problems/binary-tree-maximum-path-sum/ 这题特别好
+
+July 3st
+235 https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/
+250 https://leetcode.cn/problems/count-univalue-subtrees/
+333 https://leetcode.cn/problems/largest-bst-subtree/
+100 https://leetcode.cn/problems/same-tree 遍历的思路
+110 https://leetcode.cn/problems/balanced-binary-tree
+111 https://leetcode.cn/problems/minimum-depth-of-binary-tree/submissions/
+112 https://leetcode.cn/problems/path-sum
+113 https://leetcode.cn/problems/path-sum-ii
+129 https://leetcode.cn/problems/sum-root-to-leaf-numbers/
+222 https://leetcode.cn/problems/count-complete-tree-nodes/
+298 https://leetcode.cn/problems/binary-tree-longest-consecutive-sequence/submissions/
+101 https://leetcode.cn/problems/symmetric-tree/ 这个题目特别好
