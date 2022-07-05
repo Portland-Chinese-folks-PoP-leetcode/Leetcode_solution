@@ -192,3 +192,7 @@ July 3st
 222 https://leetcode.cn/problems/count-complete-tree-nodes/
 298 https://leetcode.cn/problems/binary-tree-longest-consecutive-sequence/submissions/
 101 https://leetcode.cn/problems/symmetric-tree/ 这个题目特别好
+366 https://leetcode.cn/problems/find-leaves-of-binary-tree/ 是一个后序的题目 很有意思
+
+July 4th
+314 https://leetcode.cn/problems/binary-tree-vertical-order-traversal/

@@ -18,11 +18,11 @@ class Solution:
                 path.pop(-1)
                 return
             path.append(root.val)
-            traverse(root.left, remain, path)
+            traverse(root.left, remain, path)  # 对左边进行回溯
             path.pop(-1)
 
             path.append(root.val)
-            traverse(root.right, remain, path)
+            traverse(root.right, remain, path)  # 对右边进行回溯
             path.pop(-1)
 
         res = []
