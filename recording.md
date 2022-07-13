@@ -195,4 +195,23 @@ July 3st
 366 https://leetcode.cn/problems/find-leaves-of-binary-tree/ 是一个后序的题目 很有意思
 
 July 4th
-314 https://leetcode.cn/problems/binary-tree-vertical-order-traversal/
+314 https://leetcode.cn/problems/binary-tree-vertical-order-traversal/  二叉树的垂直遍历
+127 https://leetcode.cn/problems/word-ladder/ 单词接龙
+
+July 5th
+22 https://leetcode.cn/problems/generate-parentheses/ 括号生成
+17 https://leetcode.cn/problems/letter-combinations-of-a-phone-number/ 电话号码的字母组合
+39 https://leetcode.cn/problems/combination-sum/ 组合总和
+40 https://leetcode.cn/problems/combination-sum-ii/ 组和总和II
+79 https://leetcode.cn/problems/word-search/ 单词搜索
+39 https://leetcode.cn/problems/restore-ip-addresses/ 复原ip地址
+5 https://leetcode.cn/problems/longest-palindromic-substring/ 最长回文子串
+131 https://leetcode.cn/problems/palindrome-partitioning/ 分割回文串
+July 6th
+409 https://leetcode.cn/problems/longest-palindrome/ 最长回文串
+647 https://leetcode.cn/problems/palindromic-substrings/ 回文子串
+9 https://leetcode.cn/problems/palindrome-number/  回文数
+516 https://leetcode.cn/problems/longest-palindromic-subsequence/ 最长回文子序列
+60 https://leetcode.cn/problems/permutation-sequence/ 排列序列  烂题
+139 https://leetcode.cn/problems/word-break/ 单词拆分
+140 https://leetcode.cn/problems/word-break-ii/ 单词拆分2

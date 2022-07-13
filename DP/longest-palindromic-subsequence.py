@@ -44,18 +44,20 @@ def lps(seq, i, j):
 
 # dp 数组的定义是 dp[i][j]=x的定义是，string[i:j]内的最长回文子序列的长度
 # 所以这个题目迭代的时候要从最后开始迭代，j却要从 range(i+1，n)内迭代。
-def longestPalindromeSubseq_table(s: str) -> int:
-    n = len(s)
-    dp = [[0] * n for _ in range(n)]
-    for i in range(n - 1, -1, -1):
-        dp[i][i] = 1
-        for j in range(i + 1, n):
-            if s[i] == s[j]:
-                dp[i][j] = dp[i + 1][j - 1] + 2
-            else:
-                dp[i][j] = max(dp[i + 1][j], dp[i][j - 1])
-        # print(dp)
-    return dp[0][n - 1]
+class Solution:
+    def longestPalindromeSubseq(self, s: str) -> int:
+        n = len(s)
+        dp = [[0 for i in range(n)] for j in range(n)]
+
+        for i in range(n):  # 这一步至关重要 是在初始化的位置在对角线上的元素
+            dp[i][i] = 1
+        for i in range(n-1, -1, -1):
+            for j in range(i+1, n):
+                if s[i] == s[j]:
+                    dp[i][j] = dp[i+1][j-1]+2
+                else:
+                    dp[i][j] = max(dp[i][j-1], dp[i+1][j])
+        return dp[0][n-1]
 
 
 string = 'baab'
