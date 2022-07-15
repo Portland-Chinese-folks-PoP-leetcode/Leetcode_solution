@@ -215,3 +215,14 @@ July 6th
 60 https://leetcode.cn/problems/permutation-sequence/ 排列序列  烂题
 139 https://leetcode.cn/problems/word-break/ 单词拆分
 140 https://leetcode.cn/problems/word-break-ii/ 单词拆分2
+
+July 13rd
+226 https://leetcode.cn/problems/palindrome-permutation/
+242 https://leetcode.cn/problems/valid-anagram/
+49 https://leetcode.cn/problems/group-anagrams/submissions/ 这个故事告诉我们string 也可以被sorted，return value是一串list
+July 14th
+https://leetcode.cn/problems/reverse-integer/solution/ str或者list都可以用 X[::-1]来实现反转
+https://leetcode.cn/problems/group-shifted-strings/  哈希表
+https://leetcode.cn/problems/jump-game-ii/solution/ dp
+https://leetcode.cn/problems/reorder-data-in-log-files/submissions/ 用完sorted 要重新赋值，sorted(X,key=itemgetter(0,1))
+https://leetcode.cn/problems/top-k-frequent-elements/ 狠狠的使用counter

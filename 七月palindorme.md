@@ -42,3 +42,6 @@ for i in  range(n-1,-1,-1):
     dp[i][j] = (s[i] == s[j]) and dp[i + 1][j - 1]
 
 ```
+- [valid-anagram](https://leetcode.cn/problems/valid-anagram/)
+- [group-anagrams](https://leetcode.cn/problems/group-anagrams) [**Solution**](hash/group-anagrams.py)
+ 这个是哈希表的使用
