@@ -180,49 +180,49 @@ https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/
 https://leetcode.cn/problems/binary-tree-maximum-path-sum/ 这题特别好
 
 July 3st
-235 https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/
-250 https://leetcode.cn/problems/count-univalue-subtrees/
-333 https://leetcode.cn/problems/largest-bst-subtree/
-100 https://leetcode.cn/problems/same-tree 遍历的思路
-110 https://leetcode.cn/problems/balanced-binary-tree
-111 https://leetcode.cn/problems/minimum-depth-of-binary-tree/submissions/
-112 https://leetcode.cn/problems/path-sum
-113 https://leetcode.cn/problems/path-sum-ii
-129 https://leetcode.cn/problems/sum-root-to-leaf-numbers/
-222 https://leetcode.cn/problems/count-complete-tree-nodes/
-298 https://leetcode.cn/problems/binary-tree-longest-consecutive-sequence/submissions/
-101 https://leetcode.cn/problems/symmetric-tree/ 这个题目特别好
-366 https://leetcode.cn/problems/find-leaves-of-binary-tree/ 是一个后序的题目 很有意思
+- 235 https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/
+- 250 https://leetcode.cn/problems/count-univalue-subtrees/
+- 333 https://leetcode.cn/problems/largest-bst-subtree/
+- 100 https://leetcode.cn/problems/same-tree 遍历的思路
+- 110 https://leetcode.cn/problems/balanced-binary-tree
+- 111 https://leetcode.cn/problems/minimum-depth-of-binary-tree/submissions/
+- 112 https://leetcode.cn/problems/path-sum
+- 113 https://leetcode.cn/problems/path-sum-ii
+- 129 https://leetcode.cn/problems/sum-root-to-leaf-numbers/
+- 222 https://leetcode.cn/problems/count-complete-tree-nodes/
+- 298 https://leetcode.cn/problems/binary-tree-longest-consecutive-sequence/submissions/
+- 101 https://leetcode.cn/problems/symmetric-tree/ 这个题目特别好
+- 366 https://leetcode.cn/problems/find-leaves-of-binary-tree/ 是一个后序的题目 很有意思
 
 July 4th
-314 https://leetcode.cn/problems/binary-tree-vertical-order-traversal/  二叉树的垂直遍历
-127 https://leetcode.cn/problems/word-ladder/ 单词接龙
+- 314 https://leetcode.cn/problems/binary-tree-vertical-order-traversal/  二叉树的垂直遍历
+- 127 https://leetcode.cn/problems/word-ladder/ 单词接龙
 
 July 5th
-22 https://leetcode.cn/problems/generate-parentheses/ 括号生成
-17 https://leetcode.cn/problems/letter-combinations-of-a-phone-number/ 电话号码的字母组合
-39 https://leetcode.cn/problems/combination-sum/ 组合总和
-40 https://leetcode.cn/problems/combination-sum-ii/ 组和总和II
-79 https://leetcode.cn/problems/word-search/ 单词搜索
-39 https://leetcode.cn/problems/restore-ip-addresses/ 复原ip地址
-5 https://leetcode.cn/problems/longest-palindromic-substring/ 最长回文子串
-131 https://leetcode.cn/problems/palindrome-partitioning/ 分割回文串
+- 22 https://leetcode.cn/problems/generate-parentheses/ 括号生成
+- 17 https://leetcode.cn/problems/letter-combinations-of-a-phone-number/ 电话号码的字母组合
+- 39 https://leetcode.cn/problems/combination-sum/ 组合总和
+- 40 https://leetcode.cn/problems/combination-sum-ii/ 组和总和II
+- 79 https://leetcode.cn/problems/word-search/ 单词搜索
+- 39 https://leetcode.cn/problems/restore-ip-addresses/ 复原ip地址
+- 5 https://leetcode.cn/problems/longest-palindromic-substring/ 最长回文子串
+- 131 https://leetcode.cn/problems/palindrome-partitioning/ 分割回文串
 July 6th
-409 https://leetcode.cn/problems/longest-palindrome/ 最长回文串
-647 https://leetcode.cn/problems/palindromic-substrings/ 回文子串
-9 https://leetcode.cn/problems/palindrome-number/  回文数
-516 https://leetcode.cn/problems/longest-palindromic-subsequence/ 最长回文子序列
-60 https://leetcode.cn/problems/permutation-sequence/ 排列序列  烂题
-139 https://leetcode.cn/problems/word-break/ 单词拆分
-140 https://leetcode.cn/problems/word-break-ii/ 单词拆分2
+- 409 https://leetcode.cn/problems/longest-palindrome/ 最长回文串
+- 647 https://leetcode.cn/problems/palindromic-substrings/ 回文子串
+- 9 https://leetcode.cn/problems/palindrome-number/  回文数
+- 516 https://leetcode.cn/problems/longest-palindromic-subsequence/ 最长回文子序列
+- 60 https://leetcode.cn/problems/permutation-sequence/ 排列序列  烂题
+- 139 https://leetcode.cn/problems/word-break/ 单词拆分
+- 140 https://leetcode.cn/problems/word-break-ii/ 单词拆分2
 
 July 13rd
-226 https://leetcode.cn/problems/palindrome-permutation/
-242 https://leetcode.cn/problems/valid-anagram/
-49 https://leetcode.cn/problems/group-anagrams/submissions/ 这个故事告诉我们string 也可以被sorted，return value是一串list
+- 226 https://leetcode.cn/problems/palindrome-permutation/
+- 242 https://leetcode.cn/problems/valid-anagram/
+- 49 https://leetcode.cn/problems/group-anagrams/submissions/ 这个故事告诉我们string 也可以被sorted，return value是一串list
 July 14th
-https://leetcode.cn/problems/reverse-integer/solution/ str或者list都可以用 X[::-1]来实现反转
-https://leetcode.cn/problems/group-shifted-strings/  哈希表
-https://leetcode.cn/problems/jump-game-ii/solution/ dp
-https://leetcode.cn/problems/reorder-data-in-log-files/submissions/ 用完sorted 要重新赋值，sorted(X,key=itemgetter(0,1))
-https://leetcode.cn/problems/top-k-frequent-elements/ 狠狠的使用counter
+- https://leetcode.cn/problems/reverse-integer/solution/ str或者list都可以用 X[::-1]来实现反转
+- https://leetcode.cn/problems/group-shifted-strings/  哈希表
+- https://leetcode.cn/problems/jump-game-ii/solution/ dp
+- https://leetcode.cn/problems/reorder-data-in-log-files/submissions/ 用完sorted 要重新赋值，sorted(X,key=itemgetter(0,1))
+- https://leetcode.cn/problems/top-k-frequent-elements/ 狠狠的使用counter
