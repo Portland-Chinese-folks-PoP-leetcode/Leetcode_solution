@@ -226,3 +226,13 @@ July 14th
 - https://leetcode.cn/problems/jump-game-ii/solution/ dp
 - https://leetcode.cn/problems/reorder-data-in-log-files/submissions/ 用完sorted 要重新赋值，sorted(X,key=itemgetter(0,1))
 - https://leetcode.cn/problems/top-k-frequent-elements/ 狠狠的使用counter
+- https://leetcode.cn/problems/find-all-anagrams-in-a-string/ 最简单的一个滑动窗口
+  July 15th
+- https://leetcode.cn/problems/minimum-size-subarray-sum/
+-  56 https://leetcode.cn/problems/merge-intervals/  区间做法，先排序 再俩if 判断是 包括还是 overlap
+-  57 https://leetcode.cn/problems/insert-interval/
+-  https://leetcode.cn/problems/remove-covered-intervals/submissions/
+-  https://leetcode.cn/problems/climbing-stairs/ 等价于 fib 斐波那契额数列
+
+16 th
+https://leetcode.cn/problems/search-in-rotated-sorted-array/ 这是一道好题目 第一题做这个
