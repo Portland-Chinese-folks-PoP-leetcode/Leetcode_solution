@@ -259,20 +259,23 @@ July 13rd
 16 th
 https://leetcode.cn/problems/search-in-rotated-sorted-array/ 这是一道好题目 第一题做这个
 21st
-33 https://leetcode.cn/problems/search-in-rotated-sorted-array/
-80 https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/
-81 https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/
-23 https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
+
+- 33 https://leetcode.cn/problems/search-in-rotated-sorted-array/
+- 80 https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/
+- 81 https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/
+- 23 https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
 
 21st
-33 https://leetcode.cn/problems/search-in-rotated-sorted-array/
-80 https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/
-26 https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
-81 https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/
+
+- 33 https://leetcode.cn/problems/search-in-rotated-sorted-array/
+- 80 https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/
+- 26 https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
+- 81 https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/
 
 22nd
-https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/
-https://leetcode.com/problems/meeting-rooms-ii/submissions/ 很奇怪的做法 草
+
+- https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/
+- https://leetcode.com/problems/meeting-rooms-ii/submissions/ 很奇怪的做法 草
 
 ```python
 class Solution:
@@ -317,3 +320,6 @@ class Solution:
         return len(freerooms)
 
 ```
+
+23st
+Gonna do following questions https://leetcode.com/company/amazon/
