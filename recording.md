@@ -263,3 +263,57 @@ https://leetcode.cn/problems/search-in-rotated-sorted-array/ 这是一道好题�
 80 https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/
 81 https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/
 23 https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
+
+21st
+33 https://leetcode.cn/problems/search-in-rotated-sorted-array/
+80 https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/
+26 https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
+81 https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/
+
+22nd
+https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/
+https://leetcode.com/problems/meeting-rooms-ii/submissions/ 很奇怪的做法 草
+
+```python
+class Solution:
+    def minMeetingRooms(self, intervals: List[List[int]]) -> int:
+        start_list=[]
+        end_list=[]
+        n=len(intervals)
+        for i in range(n):
+            start_list.append(intervals[i][0])
+            end_list.append(intervals[i][1])
+        count=0
+        start_list=sorted(start_list)
+        end_list=sorted(end_list)
+        s=e=0
+        available=numroom=0
+        while s<len(start_list):
+            if start_list[s]<end_list[e]:
+                if available==0:
+                    numroom+=1
+                else:
+                    available-=1
+                s+=1
+            else:
+                available+=1
+                e+=1
+        return numroom
+```
+
+### heap
+
+```python
+class Solution:
+    def minMeetingRooms(self, intervals: List[List[int]]) -> int:
+        freerooms=[]
+        intervals.sort(key=lambda x:x[0])
+        print(intervals)
+        heapq.heappush(freerooms,intervals[0][1])
+        for i in range(1,len(intervals)):
+            if freerooms[0]<=intervals[i][0]:
+                heapq.heappop(freerooms)
+            heapq.heappush(freerooms,intervals[i][1])
+        return len(freerooms)
+
+```
