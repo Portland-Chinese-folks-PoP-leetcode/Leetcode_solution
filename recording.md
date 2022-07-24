@@ -275,7 +275,7 @@ https://leetcode.cn/problems/search-in-rotated-sorted-array/ 这是一道好题�
 22nd
 
 - https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/
-- https://leetcode.com/problems/meeting-rooms-ii/submissions/ 很奇怪的做法 草
+- https://leetcode.com/problems/meeting-rooms-ii/ 很奇怪的做法 草
 
 ```python
 class Solution:
@@ -321,5 +321,76 @@ class Solution:
 
 ```
 
-23st
+### 23th
+
 Gonna do following questions https://leetcode.com/company/amazon/
+
+What difference between subarray, subset, and substring?
+Basically, subarray(substring) has order and continuity, but subset doesn't.
+For example:
+nums = [1, 2, 3]
+The subarray of nums is: [1], [1,2], [1,2,3], [2], [2,3], [3].
+The subset of nums is: [1], [1,2], [1,2,3], [2], [2,3], [3], [1,3]. <- The order doesn't matter in subset, so you can write [1,3] or [3,1]. Both of them are the same subset of nums.
+
+When you are writing the subarray, you can think the bracket parenthesis is moving.
+[1] 2] 3] <- There is one place to put left bracket, and there are three place to put right bracket.
+So we get [1], [1,2], [1,2,3]. 13 = 3
+1 [2] 3] <- There is one place to put left bracket, and there are two place to put right bracket.
+So we get [2], [2,3]. 12 = 2
+1 2 [3] <- There is one place to put left bracket, and there are one place to put right bracket.
+So we get [3]. 1\*1 = 1
+
+Finally, total subarray of nums is 3+2+1 = 6.
+(formula to reach the total numbe of subarray is n\*(n+1)/2)
+
+https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string
+
+```python
+        index = {c: [-1, -1] for c in ascii_uppercase}
+        res = 0
+        for i, c in enumerate(S):
+            k, j = index[c]
+            res += (i - j) * (j - k)
+            index[c] = [j, i]
+        for c in index:
+            k, j = index[c]
+            res += (len(S) - j) * (j - k)
+        return res % (10**9 + 7)
+```
+
+https://leetcode.com/problems/sum-of-subarray-ranges
+
+```python
+class Solution:
+    def subArrayRanges(self, nums: List[int]) -> int:
+        res=0
+        for i in range(len(nums)):
+            max_num=nums[i]
+            min_num=nums[i]
+            for j in range(i+1,len(nums)):
+                max_num=max(max_num,nums[j])
+                min_num=min(min_num,nums[j])
+                res+=max_num-min_num
+        return res
+```
+
+### https://leetcode.com/problems/analyze-user-website-visit-pattern/ 这一题多看几遍
+
+python 自带处理 combination 或者 permutation 的工具 from itertools import combinations
+
+```python
+class Solution:
+    def mostVisitedPattern(self, username: List[str], timestamp: List[int], website: List[str]) -> List[str]:
+        users=defaultdict(list)
+        for user,time,site in sorted(zip(username,timestamp,website), key=lambda x: (x[0],x[1])):
+            users[user].append(site)
+        patterns=Counter()
+        for user,sites in users.items():
+            patterns.update(Counter(set(combinations(sites,3))))
+        print(sorted(patterns))
+        return max(sorted(patterns), key=patterns.get)
+```
+
+### 24th
+
+https://leetcode.com/problems/reorder-data-in-log-files
