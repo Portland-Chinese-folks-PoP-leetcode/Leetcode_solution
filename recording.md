@@ -393,4 +393,35 @@ class Solution:
 
 ### 24th
 
-https://leetcode.com/problems/reorder-data-in-log-files
+https://leetcode.com/problems/reorder-data-in-log-files sorted 的 key 可以用来定义 algorithem 返回值一定是 set
+
+```python
+class Solution:
+    def reorderLogFiles(self, logs: List[str]) -> List[str]:
+        def sorting_algo(log):
+            if log[-1].isnumeric():
+                return (1,)
+            left_side, right_side=log.split(" ",1)
+            return (0,right_side,left_side)
+        return sorted(logs,key=sorting_algo)
+```
+
+https://leetcode.com/problems/sum-of-total-strength-of-wizards/ 前缀和 与单调栈(mono stack),use itertools 的 accumulate 来 build range sum
+
+- https://leetcode.com/problems/search-suggestions-system/submissions/ use str.startwith(str) 很有用 bisect.bisectleft
+  -- https://leetcode.com/problems/search-suggestions-system/discuss/436674/C%2B%2BJavaPython-Sort-and-Binary-Search-the-Prefix 大佬的解法
+
+```python
+class Solution:
+    def suggestedProducts(self, A, word):
+        A.sort()
+        res, prefix, i = [], '', 0
+        for c in word:
+            prefix += c
+            i = bisect.bisect_left(A, prefix, i)
+            print(i)
+            res.append([w for w in A[i:i + 3] if w.startswith(prefix)])
+        return res
+```
+
+- https://leetcode.com/problems/k-closest-points-to-origin 这一题就是使用 heapq 2**2=4 3**2=9
