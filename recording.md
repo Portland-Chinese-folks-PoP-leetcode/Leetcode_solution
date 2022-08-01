@@ -425,3 +425,67 @@ class Solution:
 ```
 
 - https://leetcode.com/problems/k-closest-points-to-origin 这一题就是使用 heapq 2**2=4 3**2=9
+
+## August1 st
+- https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/  simple two dimensional DP
+```python
+        
+class Solution:
+    def getMaxLen(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        dp[i][0] : max length of subarray ending with index i With positive product
+        dp[i][1] : max length of subarray ending with index i With negative product
+        """
+        n = len(nums)
+        dp = [[0] * 2 for _ in range(n)]   
+        if nums[0] > 0:
+            dp[0][0] = 1
+        if nums[0] < 0:
+            dp[0][1] = 1
+        res = dp[0][0]
+        for i in range(1, n):
+            cur = nums[i]
+            if cur > 0:
+                dp[i][0] = dp[i - 1][0] + 1
+                if dp[i - 1][1] > 0: 
+                    dp[i][1] = dp[i - 1][1] + 1
+            if cur < 0:
+                dp[i][1] = dp[i - 1][0] + 1
+                if dp[i - 1][1] > 0: 
+                    dp[i][0] =  dp[i - 1][1] + 1
+            res = max(res, dp[i][0])
+        return res
+```
+- https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list
+```python
+class Solution:
+    def pairSum(self, head: Optional[ListNode]) -> int:
+        def reverseN(head, n):
+            if n == 1:
+                return head
+            # 以 head.next 为起点，需要反转前 n - 1 个节点
+            last = reverseN(head.next, n-1)
+            successor = head.next.next
+            # 以head.next为开头的链表已经完成翻转，那么head.next.next正确指向后继节点
+            head.next.next = head
+            head.next = successor
+            return last
+        fast=head
+        slow=head
+        count=0
+        while fast is not None and fast.next is not None:
+            count+=1
+            fast=fast.next.next
+            slow=slow.next
+        head=reverseN(head,count)
+        p2=slow
+        p1=head
+        max_num=-(math.inf)
+        while p2 is not None:
+            max_num=max(p1.val+p2.val,max_num)
+            p1=p1.next  
+            p2=p2.next
+        return max_num
+```
