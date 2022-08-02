@@ -489,3 +489,37 @@ class Solution:
             p2=p2.next
         return max_num
 ```
+- https://leetcode.com/problems/minimum-health-to-beat-game/
+```python
+class Solution:
+    def minimumHealth(self, damage: List[int], armor: int) -> int:
+        return 1 + sum(damage) - min(max(damage), armor)
+```
+
+- https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/submissions/ 先用LCA
+```python
+class Solution:
+    def getDirections(self, root: Optional[TreeNode], startValue: int, destValue: int) -> str:
+        
+        def lca(node): 
+            """Return lowest common ancestor of start and dest nodes."""
+            if not node or node.val in (startValue , destValue): return node 
+            left, right = lca(node.left), lca(node.right)
+            return node if left and right else left or right
+        
+        root = lca(root) # only this sub-tree matters
+        
+        ps = pd = ""
+        stack = [(root, "")]
+        while stack: 
+            node, path = stack.pop()
+            if node.val == startValue: ps = path 
+            if node.val == destValue: pd = path
+            if node.left: stack.append((node.left, path + "L"))
+            if node.right: stack.append((node.right, path + "R"))
+        return "U"*len(ps) + pd
+```
+August 2nd
+- https://leetcode.com/problems/container-with-most-water/
+- https://leetcode.com/problems/trapping-rain-water 用空间换了时间
+- https://leetcode.com/problems/product-of-array-except-self 妙用 itertools的 accumulation, list(accumulate(nums, operator.mul))
