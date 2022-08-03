@@ -523,3 +523,25 @@ August 2nd
 - https://leetcode.com/problems/container-with-most-water/
 - https://leetcode.com/problems/trapping-rain-water 用空间换了时间
 - https://leetcode.com/problems/product-of-array-except-self 妙用 itertools的 accumulation, list(accumulate(nums, operator.mul))
+- https://leetcode.com/problems/continuous-subarray-sum preSum's tech nique.这道题有点想在考数学 preSum with hashmap
+```python
+import itertools
+class Solution:
+    def checkSubarraySum(self, nums: List[int], k: int) -> bool:
+        preSum=list(itertools.accumulate(nums))
+        preSum.insert(0,0)
+        valtoIndex={}
+        for i in range(0,len(preSum)):
+            val=preSum[i]%k
+            if val not in valtoIndex:
+                valtoIndex[val]=i
+        res=0
+        for j in range(1,len(preSum)):
+            need=preSum[j]%k
+            if need in valtoIndex:
+                if j-valtoIndex[need]>=2:
+                    return True
+        return False
+```
+- https://leetcode.cn/problems/contiguous-array preSum with hashmap
+- https://leetcode.com/problems/subarray-sum-equals-k/
