@@ -543,5 +543,22 @@ class Solution:
                     return True
         return False
 ```
-- https://leetcode.cn/problems/contiguous-array preSum with hashmap
-- https://leetcode.com/problems/subarray-sum-equals-k/
+- https://leetcode.cn/problems/contiguous-array preSum with hashmap # 不怎么考别看了
+- https://leetcode.com/problems/subarray-sum-equals-k/ # 这一题有必要看
+
+Aug 3
+- https://leetcode.com/problems/maximum-product-subarray   Kadane's Approach
+```python
+class Solution:
+    def maxProduct(self, nums: List[int]) -> int:
+        global_max,pre_max,pre_min=nums[0],nums[0],nums[0]
+        for num in nums[1:]:
+            cur_min=min(pre_max*num,pre_min*num,num)
+            cur_max=max(pre_max*num,pre_min*num,num)
+            global_max=max(cur_max,global_max)
+            pre_max=cur_max
+            pre_min=cur_min
+        return global_max
+```
+- https://leetcode.cn/problems/next-permutation/ 并不是一道很有必要的题目
+- https://leetcode.com/problems/sort-colors/ # 有点意思 三元素排序
