@@ -562,3 +562,8 @@ class Solution:
 ```
 - https://leetcode.cn/problems/next-permutation/ 并不是一道很有必要的题目
 - https://leetcode.com/problems/sort-colors/ # 有点意思 三元素排序
+
+Aug 4th
+- https: // leetcode.com/problems/first-missing-positive/  先sort再找
+- https://leetcode.com/problems/largest-rectangle-in-histogram/ 单调栈
+- https://leetcode.com/problems/course-schedule  构件图 判断是否有环
