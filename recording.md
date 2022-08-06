@@ -427,9 +427,11 @@ class Solution:
 - https://leetcode.com/problems/k-closest-points-to-origin 这一题就是使用 heapq 2**2=4 3**2=9
 
 ## August1 st
-- https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/  simple two dimensional DP
+
+- https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/ simple two dimensional DP
+
 ```python
-        
+
 class Solution:
     def getMaxLen(self, nums):
         """
@@ -439,7 +441,7 @@ class Solution:
         dp[i][1] : max length of subarray ending with index i With negative product
         """
         n = len(nums)
-        dp = [[0] * 2 for _ in range(n)]   
+        dp = [[0] * 2 for _ in range(n)]
         if nums[0] > 0:
             dp[0][0] = 1
         if nums[0] < 0:
@@ -449,16 +451,18 @@ class Solution:
             cur = nums[i]
             if cur > 0:
                 dp[i][0] = dp[i - 1][0] + 1
-                if dp[i - 1][1] > 0: 
+                if dp[i - 1][1] > 0:
                     dp[i][1] = dp[i - 1][1] + 1
             if cur < 0:
                 dp[i][1] = dp[i - 1][0] + 1
-                if dp[i - 1][1] > 0: 
+                if dp[i - 1][1] > 0:
                     dp[i][0] =  dp[i - 1][1] + 1
             res = max(res, dp[i][0])
         return res
 ```
+
 - https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list
+
 ```python
 class Solution:
     def pairSum(self, head: Optional[ListNode]) -> int:
@@ -485,45 +489,51 @@ class Solution:
         max_num=-(math.inf)
         while p2 is not None:
             max_num=max(p1.val+p2.val,max_num)
-            p1=p1.next  
+            p1=p1.next
             p2=p2.next
         return max_num
 ```
+
 - https://leetcode.com/problems/minimum-health-to-beat-game/
+
 ```python
 class Solution:
     def minimumHealth(self, damage: List[int], armor: int) -> int:
         return 1 + sum(damage) - min(max(damage), armor)
 ```
 
-- https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/submissions/ 先用LCA
+- https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/submissions/ 先用 LCA
+
 ```python
 class Solution:
     def getDirections(self, root: Optional[TreeNode], startValue: int, destValue: int) -> str:
-        
-        def lca(node): 
+
+        def lca(node):
             """Return lowest common ancestor of start and dest nodes."""
-            if not node or node.val in (startValue , destValue): return node 
+            if not node or node.val in (startValue , destValue): return node
             left, right = lca(node.left), lca(node.right)
             return node if left and right else left or right
-        
+
         root = lca(root) # only this sub-tree matters
-        
+
         ps = pd = ""
         stack = [(root, "")]
-        while stack: 
+        while stack:
             node, path = stack.pop()
-            if node.val == startValue: ps = path 
+            if node.val == startValue: ps = path
             if node.val == destValue: pd = path
             if node.left: stack.append((node.left, path + "L"))
             if node.right: stack.append((node.right, path + "R"))
         return "U"*len(ps) + pd
 ```
+
 August 2nd
+
 - https://leetcode.com/problems/container-with-most-water/
 - https://leetcode.com/problems/trapping-rain-water 用空间换了时间
-- https://leetcode.com/problems/product-of-array-except-self 妙用 itertools的 accumulation, list(accumulate(nums, operator.mul))
+- https://leetcode.com/problems/product-of-array-except-self 妙用 itertools 的 accumulation, list(accumulate(nums, operator.mul))
 - https://leetcode.com/problems/continuous-subarray-sum preSum's tech nique.这道题有点想在考数学 preSum with hashmap
+
 ```python
 import itertools
 class Solution:
@@ -543,11 +553,14 @@ class Solution:
                     return True
         return False
 ```
+
 - https://leetcode.cn/problems/contiguous-array preSum with hashmap # 不怎么考别看了
 - https://leetcode.com/problems/subarray-sum-equals-k/ # 这一题有必要看
 
 Aug 3
-- https://leetcode.com/problems/maximum-product-subarray   Kadane's Approach
+
+- https://leetcode.com/problems/maximum-product-subarray Kadane's Approach
+
 ```python
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
@@ -560,10 +573,18 @@ class Solution:
             pre_min=cur_min
         return global_max
 ```
+
 - https://leetcode.cn/problems/next-permutation/ 并不是一道很有必要的题目
 - https://leetcode.com/problems/sort-colors/ # 有点意思 三元素排序
 
 Aug 4th
-- https: // leetcode.com/problems/first-missing-positive/  先sort再找
+
+- https: // leetcode.com/problems/first-missing-positive/ 先 sort 再找
 - https://leetcode.com/problems/largest-rectangle-in-histogram/ 单调栈
-- https://leetcode.com/problems/course-schedule  构件图 判断是否有环
+- https://leetcode.com/problems/course-schedule 构件图 判断是否有环
+
+August 5 th
+
+- https://leetcode.com/problems/unique-paths/ typical dp
+- https://leetcode.com/problems/rotate-image/submissions/ 很有意思的题目 相当于模拟一下 np
+- https://leetcode.cn/problems/longest-consecutive-sequence/
