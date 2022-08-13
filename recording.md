@@ -120,43 +120,47 @@
 - https: // leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/submissions/
 
 June 27 复习 二叉搜索树
-https://leetcode.com/problems/kth-smallest-element-in-a-bst
-https://leetcode.com/problems/convert-bst-to-greater-tree
-https://leetcode.cn/problems/validate-binary-search-tree
-https://leetcode.cn/problems/delete-node-in-a-bst
-https://leetcode.cn/problems/search-in-a-binary-search-tree
-https://leetcode.cn/problems/insert-into-a-binary-search-tree
-https://leetcode.cn/problems/unique-binary-search-trees-ii
-https://leetcode.cn/problems/unique-binary-search-trees
-看了一下图
+
+- https://leetcode.com/problems/kth-smallest-element-in-a-bst
+- https://leetcode.com/problems/convert-bst-to-greater-tree
+- https://leetcode.cn/problems/validate-binary-search-tree
+- https://leetcode.cn/problems/delete-node-in-a-bst
+- https://leetcode.cn/problems/search-in-a-binary-search-tree
+- https://leetcode.cn/problems/insert-into-a-binary-search-tree
+- https://leetcode.cn/problems/unique-binary-search-trees-ii
+- https://leetcode.cn/problems/unique-binary-search-trees
+  看了一下图
 
 June 28
 复习 DP
-https://leetcode.com/problems/add-two-numbers/submissions/
-https://leetcode.cn/problems/fibonacci-number
-https://leetcode.com/problems/coin-change/submissions
-https://leetcode.cn/problems/longest-increasing-subsequence
-https://leetcode.cn/problems/russian-doll-envelopes
-https://leetcode.cn/problems/maximum-subarray
+
+- https://leetcode.com/problems/add-two-numbers/submissions/
+- https://leetcode.cn/problems/fibonacci-number
+- https://leetcode.com/problems/coin-change/submissions
+- https://leetcode.cn/problems/longest-increasing-subsequence
+- https://leetcode.cn/problems/russian-doll-envelopes
+- https://leetcode.cn/problems/maximum-subarray
 
 June 29
 新做
-https://leetcode.cn/problems/lru-cache/submissions/
 
-https://leetcode.cn/problems/next-greater-element-i/ 单调栈
-https://leetcode.cn/problems/reorder-list/ 栈 处理链表节点 。我的思路是使用了 dummy 节点 创建新的 list 我还是喜欢我的方法，容易看懂
-下面三个很相似
-https://leetcode.cn/problems/valid-parentheses/ 栈处理 括号 栈是一种先进后出的数据结构，处理括号问题的时候尤其有用。遇到左括号就入栈，遇到右括号就去栈中寻找最近的左括号，看是否匹配。
-https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid/ 栈处理 括号
-https://leetcode.cn/problems/evaluate-reverse-polish-notation/ 栈
+- https://leetcode.cn/problems/lru-cache/submissions/
+
+- https://leetcode.cn/problems/next-greater-element-i/ 单调栈
+- https://leetcode.cn/problems/reorder-list/ 栈 处理链表节点 。我的思路是使用了 dummy 节点 创建新的 list 我还是喜欢我的方法，容易看懂
+  下面三个很相似
+- https://leetcode.cn/problems/valid-parentheses/ 栈处理 括号 栈是一种先进后出的数据结构，处理括号问题的时候尤其有用。遇到左括号就入栈，遇到右括号就去栈中寻找最近的左括号，看是否匹配。
+- https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid/ 栈处理 括号
+- https://leetcode.cn/problems/evaluate-reverse-polish-notation/ 栈
 
 June 30
-https://leetcode.cn/problems/implement-queue-using-stacks/
-需要两个 stack。  
-peek 查看队头的元素怎么办呢？按道理队头元素应该是 1，
-但是在 s1 中 1 被压在栈底，现在就要轮到 s2 起到一个中转的作用了：
-当 s2 为空时，可以把 s1 的所有元素取出再添加进 s2，这时候 s2 中元素就是先进先出顺序了。
-https: // leetcode.cn/problems/implement-stack-using-queues/
+
+- https://leetcode.cn/problems/implement-queue-using-stacks/
+  需要两个 stack。  
+  peek 查看队头的元素怎么办呢？按道理队头元素应该是 1，
+  但是在 s1 中 1 被压在栈底，现在就要轮到 s2 起到一个中转的作用了：
+  当 s2 为空时，可以把 s1 的所有元素取出再添加进 s2，这时候 s2 中元素就是先进先出顺序了。
+  https: // leetcode.cn/problems/implement-stack-using-queues/
 
 - 一个 queue 就行 需要一个 记录栈顶元素(也就队尾元素) push API，直接将元素加入队列，同时记录队尾元素，因为队尾元素相当于栈顶元素，如果要 top 查看栈顶元素的话可以直接返回：
 - 底层数据结构是先进先出的队列，每次 pop 只能从队头取元素；但是栈是后进先出，也就是说 pop API 要从队尾取元素.解决方法简单粗暴，把队列前面的都取出来再加入队尾，让之前的队尾元素排到队头，这样就可以取出了.原来的队尾元素被提到队头并删除了，但是 top_elem 变量没有更新.等到在新的队尾元素到对头的时候停止 while 循环，赋值新的 top_element。然后再继续 append
@@ -170,32 +174,35 @@ https: // leetcode.cn/problems/implement-stack-using-queues/
 ```
 
 下面都是 queue 的题目
-https://leetcode.cn/problems/design-hit-counter/
-https://leetcode.cn/problems/number-of-recent-calls/submissions/
-https://leetcode.cn/problems/moving-average-from-data-stream/
-https://leetcode.cn/problems/design-circular-queue/submissions/
+
+- https://leetcode.cn/problems/design-hit-counter/
+- https://leetcode.cn/problems/number-of-recent-calls/submissions/
+- https://leetcode.cn/problems/moving-average-from-data-stream/
+- https://leetcode.cn/problems/design-circular-queue/submissions/
 
 July 1st
-https://leetcode.cn/problems/binary-tree-inorder-traversal/
-https://leetcode.cn/problems/binary-tree-postorder-traversal/
-https://leetcode.cn/problems/binary-search-tree-iterator/
-https://leetcode.cn/problems/binary-tree-level-order-traversal/
-https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/
-https://leetcode.cn/problems/binary-tree-level-order-traversal-ii/
+
+- https://leetcode.cn/problems/binary-tree-inorder-traversal/
+- https://leetcode.cn/problems/binary-tree-postorder-traversal/
+- https://leetcode.cn/problems/binary-search-tree-iterator/
+- https://leetcode.cn/problems/binary-tree-level-order-traversal/
+- https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/
+- https://leetcode.cn/problems/binary-tree-level-order-traversal-ii/
 
 July 2st
-https://leetcode.cn/problems/recover-binary-search-tree
-https://leetcode.cn/problems/kth-smallest-element-in-a-bst/
-https://leetcode.cn/problems/inorder-successor-in-bst/
-https://leetcode.cn/problems/closest-binary-search-tree-value-ii/
-https://leetcode.cn/problems/binary-tree-paths/
-https://leetcode.cn/problems/closest-binary-search-tree-value/
-https://leetcode.cn/problems/binary-tree-right-side-view/
-https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/
-https://leetcode.cn/problems/convert-sorted-list-to-binary-search-tree/
-递归
-https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/
-https://leetcode.cn/problems/binary-tree-maximum-path-sum/ 这题特别好
+
+- https://leetcode.cn/problems/recover-binary-search-tree
+- https://leetcode.cn/problems/kth-smallest-element-in-a-bst/
+- https://leetcode.cn/problems/inorder-successor-in-bst/
+- https://leetcode.cn/problems/closest-binary-search-tree-value-ii/
+- https://leetcode.cn/problems/binary-tree-paths/
+- https://leetcode.cn/problems/closest-binary-search-tree-value/
+- https://leetcode.cn/problems/binary-tree-right-side-view/
+- https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/
+- https://leetcode.cn/problems/convert-sorted-list-to-binary-search-tree/
+  递归
+- https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/
+- https://leetcode.cn/problems/binary-tree-maximum-path-sum/ 这题特别好
 
 July 3st
 
