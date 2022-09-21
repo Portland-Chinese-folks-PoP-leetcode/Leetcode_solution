@@ -24,9 +24,11 @@ class Solution:
                         while lo < hi and nums[hi] == right:
                             hi -= 1
             else:
+                # n > 2 时，递归计算 (n-1)Sum 的结果
                 for i in range(start, sz):
                     sub = nSumTarget(nums, n-1, i+1, target-nums[i])
                     for arr in sub:
+                        # (n-1)Sum 加上 nums[i] 就是 nSum
                         arr.append(nums[i])
                         if arr not in res:
                             res.append(arr)
