@@ -21,5 +21,5 @@ class Solution:
                 if d in need:
                     if window[d] == need[d]:
                         valid -= 1
-                    window[d] -= 1
+                window[d] -= 1
         return res

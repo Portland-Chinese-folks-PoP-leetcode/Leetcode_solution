@@ -23,7 +23,7 @@ class Solution:
                 if d in need:
                     if window[d] == need[d]:
                         valid -= 1
-                    window[d] -= 1
+                window[d] -= 1
         return False
     
     ## 下面这个办法明显更好更直观
@@ -44,7 +44,6 @@ class Solution:
         # Check if the first window in s2 is a permutation of s1
         if count_s1 == window_count:
             return True
-        
         # Slide the window through s2
         for i in range(len_s1, len_s2):
             # Update the window count
