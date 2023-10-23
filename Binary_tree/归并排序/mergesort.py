@@ -6,6 +6,17 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
+
+        """
+        This is the best descriptio for merge I have seen ever
+        The merge Function:
+
+This function merges two sorted halves of the nums array.
+Arguments: nums (the list to be sorted), low (starting index of the left half), mid (ending index of the left half), and high (ending index of the right half).
+A temporary array temp is used to store the elements of nums between low and high.
+The merging process uses two pointers, i and j. i starts from the beginning of the left half and j from the beginning of the right half.
+As the merging progresses, the smaller of the two values pointed to by i and j is added to the sorted nums and the respective pointer is incremented.
+        """
         def merge(nums, low, mid, high):
             print(nums, low, high)
             for i in range(low, high+1):
